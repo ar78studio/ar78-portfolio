@@ -1,0 +1,9 @@
+export const functionImg = require("./function.svg");
+export const artemBodyImg = require("./ArtemBodyOptimized.png");
+export const gitHubIcon = require("./github-alt.svg");
+export const twitterIcon = require("./twitter.svg");
+export const openTabIcon = require("./arrow-up-right-from-square-solid.svg");
+export const pomodorImg = require("./Pomodoro-1@2x.png");
+export const invoiceImg = require("./Invoice-Generator@2x.png");
+export const passwordImg = require("./Password-Generator -1@2x.png");
+export const luxAcresImg = require("./LuxAcres-1@2x.png");

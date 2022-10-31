@@ -4,19 +4,46 @@ import {} from "../assets";
 
 export const navLinks = [
   {
+    id: "logo",
+    title: "AR78 //",
+  },
+  {
     id: "about",
-    title: "About",
+    title: "#1. About",
   },
   {
     id: "projects",
-    title: "Projects",
+    title: "#2. Projects",
   },
   {
     id: "experience",
-    title: "Experience",
+    title: "#3. Experience",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "#4. Contact",
+  },
+  {
+    id: "cv",
+    title: "cv/resume",
+  },
+];
+
+export const hero = [
+  {
+    id: "hero-greeting",
+    title: "Hi, and welcome to the web portal",
+  },
+  {
+    id: "by-artem-repin",
+    title: "By: Artem: Repin",
+  },
+  {
+    id: "rights",
+    title: "All Rights Reserved Without Prejudice",
+  },
+  {
+    id: "function-line1",
+    img: function,
   },
 ];
