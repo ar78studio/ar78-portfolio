@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: "#000",
         blueDianne: "rgba(35, 61, 77, 1)",
         springGreen: "rgba(163, 204, 171, 1)",
         lightBeige: "rgba(244, 241, 222, 1);",
