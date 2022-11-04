@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,500|Inter:700|Montserrat:900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,500|Montserrat:900");
 
 @tailwind base;
 @tailwind components;
@@ -20,7 +20,6 @@
   --font-size-xxxxl: 22px;
   --font-size-xxxxxl: 26px;
 
-  --font-family-inter: "Inter";
   --font-family-montserrat: "Montserrat";
   --font-family-roboto: "Roboto";
 }

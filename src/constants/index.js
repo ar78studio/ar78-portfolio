@@ -10,13 +10,11 @@ import {
   invoiceImg,
   passwordImg,
   luxAcresImg,
-} from "../assets/index";
+  menuIcon,
+  closeIcon,
+} from "../assets";
 
 export const navLinks = [
-  {
-    id: "logo",
-    title: "AR78 //",
-  },
   {
     id: "about",
     title: "#1. About",
@@ -54,12 +52,16 @@ export const hero = [
   },
   {
     id: "function",
-    image: functionImg,
+    icon: functionImg,
   },
   {
     id: "consoleLog",
     content:
       ">> I am a passionate and thirsty Front End Engineer who appreciates good web design aesthetics and strives to produce clean code. While occasionally stalked by an Impostor Syndrome, I find my safety in learning new techonologies and libraries and perfecting my librarian-programmer skills. Currently, I am working on expanding my knowledge base in APIs and React.js",
+  },
+  {
+    id: "artemImage",
+    img: artemBodyImg,
   },
 ];
 
@@ -118,8 +120,8 @@ export const about = [
   },
   {
     id: "about-git-twitter",
-    img: gitHubIcon,
-    img: twitterIcon,
+    icon: gitHubIcon,
+    icon: twitterIcon,
   },
 ];
 
@@ -155,8 +157,8 @@ export const projects = [
   {
     id: "passwordGen",
     title: "| Password Generator",
-    img: passwordImg,
     content: "HTML, CSS, JavaScript",
+    img: passwordImg,
     icon: gitHubIcon,
     icon: openTabIcon,
   },
@@ -170,7 +172,7 @@ export const projects = [
   },
 ];
 
-export const experience = [
+export const experienceEdu = [
   {
     id: "number3-over",
     content: "#3",
@@ -180,8 +182,8 @@ export const experience = [
     content: "#3",
   },
   {
-    id: "experience",
-    title: "// Experience",
+    id: "experienceEdu",
+    title: "// Experience & Education",
   },
 ];
 

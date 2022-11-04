@@ -14,6 +14,15 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+
+      fontSize: {
+        // 11
+        base: "0.688rem",
+        // 18
+        md: "1.125rem",
+        // 110 by artem repin
+        xxl: "6.875",
+      },
     },
     screens: {
       xs: "480px",

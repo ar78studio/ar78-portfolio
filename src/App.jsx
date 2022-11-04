@@ -1,47 +1,89 @@
 import React from "react";
 import styles from "./style";
-
 import {
-  About,
-  Contact,
-  Experience,
-  Footer,
-  Hero,
   Navbar,
+  Hero,
+  About,
   Projects,
+  Experience,
+  Contact,
+  Footer,
 } from "./components";
 
-// If react functional components simply returns jsx, then the braces may be removed and parantheses can be used alone.
 const App = () => (
-  <div className='bg-springGreen w-full overflow-hidden'>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>Navbar</div>
+  // START OF BODY WRAP
+  <div className='w-full overflow-hidden'>
+    {/* Start of Navbar */}
+    <div className='bg-springGreen'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
     </div>
+    {/* End of Navbar */}
 
-    <div className={`bg-sunsetOrange ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Hero</div>
+    {/* Start of Hero Section */}
+    <div className='bg-sunsetOrange'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
     </div>
+    {/* End of Hero Section */}
 
-    <div className={`bg-blueDianne ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>About</div>
+    {/* Start of About Section */}
+    <div className='bg-blueDianne'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <About />
+        </div>
+      </div>
     </div>
+    {/* End of About Section */}
 
-    <div className={`bg-springGreen ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Projects</div>
+    {/* Start of Projects Section */}
+    <div className='bg-springGreen'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Projects />
+        </div>
+      </div>
     </div>
+    {/* End of Projects Section */}
 
-    <div className={`bg-lightBeige ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Experience</div>
+    {/* Start of Experience */}
+    <div className='bg-lightBeige'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Experience />
+        </div>
+      </div>
     </div>
+    {/* End of Experience */}
 
-    <div className={`bg-blueDianne ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Contact</div>
+    {/* Start of Contact Section */}
+    <div className='bg-blueDianne'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Contact />
+        </div>
+      </div>
     </div>
+    {/* End of Contact Section */}
 
-    <div className={`bg-springGreen ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Footer</div>
+    {/* Start of Footer Section */}
+    <div className='bg-springGreen'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
+      </div>
     </div>
+    {/* End of Footer Section */}
   </div>
+  // END OF BODY WRAP
 );
 
 export default App;
