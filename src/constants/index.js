@@ -17,19 +17,23 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "#1. About",
+    title: "#1.",
+    content: " About",
   },
   {
     id: "projects",
-    title: "#2. Projects",
+    title: "#2.",
+    content: " Projects",
   },
   {
     id: "experience",
-    title: "#3. Experience",
+    title: "#3.",
+    content: " Experience",
   },
   {
     id: "contact",
-    title: "#4. Contact",
+    title: "#4.",
+    content: " Contact",
   },
   {
     id: "cv",
@@ -39,29 +43,13 @@ export const navLinks = [
 
 export const hero = [
   {
-    id: "hero-greeting",
-    content: "Hi, and welcome to the web portal",
-  },
-  {
-    id: "by-artem-repin",
-    content: "By: Artem: Repin",
-  },
-  {
     id: "rights",
     content: "All Rights Reserved Without Prejudice",
-  },
-  {
-    id: "function",
-    icon: functionImg,
   },
   {
     id: "consoleLog",
     content:
       ">> I am a passionate and thirsty Front End Engineer who appreciates good web design aesthetics and strives to produce clean code. While occasionally stalked by an Impostor Syndrome, I find my safety in learning new techonologies and libraries and perfecting my librarian-programmer skills. Currently, I am working on expanding my knowledge base in APIs and React.js",
-  },
-  {
-    id: "artemImage",
-    img: artemBodyImg,
   },
 ];
 

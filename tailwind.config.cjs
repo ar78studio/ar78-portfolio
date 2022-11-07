@@ -10,6 +10,12 @@ module.exports = {
         lightBeige: "rgba(244, 241, 222, 1);",
         sunsetOrange: "rgba(254, 95, 85, 1);",
       },
+      fill: {
+        blueDianne: "rgba(35, 61, 77, 1)",
+        springGreen: "rgba(163, 204, 171, 1)",
+        lightBeige: "rgba(244, 241, 222, 1);",
+        sunsetOrange: "rgba(254, 95, 85, 1);",
+      },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
@@ -21,7 +27,7 @@ module.exports = {
         // 18
         md: "1.125rem",
         // 110 by artem repin
-        xxl: "6.875",
+        xxl: "5rem",
       },
     },
     screens: {

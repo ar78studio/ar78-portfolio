@@ -28,6 +28,10 @@
   scroll-behavior: smooth;
 }
 
+.menuIcon {
+  fill:rgba(254, 95, 85, 1)
+}
+
 /* Classes */
 
 .roboto-bold-blue-dianne-11px {
