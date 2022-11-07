@@ -18,11 +18,14 @@ const Navbar = () => {
             className={`font-roboto font-bold cursor-pointer text-[1rem] 
             // Next line of code gives margin right to all but the last nav link. Nav links are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-            text-blueDianne`}
+            `}
           >
-            <a href={`#${nav.id}`}>
+            <a href={`#${nav.id}`} className={`text-sunsetOrange`}>
               {nav.title}
+            </a>
+            <a href={`#${nav.id}`} className={`text-blueDianne relative group`}>
               {nav.content}
+              <span className='absolute -bottom-1 left-0 w-0 h-0.5 bg-sunsetOrange transition-all group-hover:w-full'></span>
             </a>
           </li>
         ))}

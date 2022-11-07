@@ -10,7 +10,7 @@ const Hero = () => (
       <p className='text-blueDianne font-bold'>
         {"Hi, and welcome to the web portal"}
       </p>
-      <h1 className='text-blueDianne font-black font-montserrat text-[2.3rem] md:text-[3.3rem] lg:text-[5rem]'>
+      <h1 className='text-blueDianne font-black font-montserrat text-[1.9rem] md:text-[3.3rem] lg:text-[5rem]'>
         {"By: Artem: Repin"}
       </h1>
       <div className='flex md:lg:justify-start'>
