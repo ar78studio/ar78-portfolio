@@ -37,7 +37,7 @@ export const navLinks = [
   },
   {
     id: "cv",
-    title: "CV/Resume",
+    content: "CV/Resume",
   },
 ];
 

@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { navLinks } from "../constants/index";
 import { closeIcon, menuIcon } from "../assets/index.js";
+import styles from "../style";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className='w-full flex py-4 justify-between items-center navbar'>
+    <nav className='w-full px-4 flex py-4 justify-between items-center navbar'>
       <div>
         <span className='text-2xl font-bold text-blueDianne'>AR78</span>
         <span className='text-3xl text-sunsetOrange'> //</span>
@@ -32,7 +33,7 @@ const Navbar = () => {
       </ul>
 
       {/* START SMALL DEVICE NAV */}
-      <div className='sm:hidden flex flex-1 justify-end items-center'>
+      <div className='sm:hidden flex flex-1 justify-end items-center z-20'>
         <img
           className='w-[28px] h-[28px] object-contain cursor-pointer'
           src={toggle ? closeIcon : menuIcon}
@@ -43,7 +44,7 @@ const Navbar = () => {
 
       <div
         className={`${toggle ? "flex" : "hidden"} p-6
-        bg-lightBeige 
+        bg-blueDianne
         opacity-90
         absolute 
         top-20 
@@ -51,20 +52,23 @@ const Navbar = () => {
         mx-4 
         my-2  
         w-11/12
-        rounded-lg 
+        rounded-md
         sidebar`}
       >
         {/* START BURGER MENU NAV LINKS */}
-        <ul className='list-none flex flex-col justify-end items-center flex-1'>
+        <ul className='list-none flex flex-col cursor-pointer justify-end items-center flex-1 z-20'>
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-roboto font-normal cursor-pointer text-[16px] 
+              className={`font-roboto font-normal text-[16px] 
             // Next line of code gives margin right to all but the last nav link. Nav link are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mb-4"}
-            text-blueDianne`}
+            text-sunsetOrange font-bold`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`#${nav.id}`}>
+                {/* {nav.title} */}
+                {nav.content}
+              </a>
             </li>
           ))}
         </ul>
