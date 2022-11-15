@@ -1,7 +1,7 @@
 export { default as functionImg } from "./functionSVG.svg";
 export { default as artemBodyImg } from "./ArtemBodyOptimized.png";
-export { default as gitHubIcon } from "./githubAlt.svg";
-export { default as twitterIcon } from "./twitter.svg";
+// export { default as githubGreenIcon } from "./githubGreen.svg";
+// export { default as twitterGreenIcon } from "./twitterGreen.svg";
 export { default as openTabIcon } from "./arrowOpenWindow.svg";
 export { default as pomodorImg } from "./Pomodoro@2x.png";
 export { default as invoiceImg } from "./InvoiceGenerator.png";

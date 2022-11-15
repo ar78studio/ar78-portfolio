@@ -8,17 +8,22 @@ const Navbar = () => {
   return (
     <nav className='w-full px-4 flex py-4 justify-between items-center navbar'>
       <div>
-        <span className='text-2xl font-bold text-blueDianne'>AR78</span>
-        <span className='text-3xl text-sunsetOrange'> //</span>
+        <span className='text-xl sm:md:lg:text-2xl font-bold text-blueDianne'>
+          AR78
+        </span>
+        <span className='text-2xl sm:mg:lg:text-3xl text-sunsetOrange'>
+          {" "}
+          //
+        </span>
       </div>
       {/* START NAV LINKS */}
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-roboto font-bold cursor-pointer text-[1rem] 
+            className={`font-roboto font-medium cursor-pointer text-[1rem] 
             // Next line of code gives margin right to all but the last nav link. Nav links are imported from constants/index.js
-            ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
+            ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}
             `}
           >
             <a href={`#${nav.id}`} className={`text-sunsetOrange`}>
@@ -26,6 +31,7 @@ const Navbar = () => {
             </a>
             <a href={`#${nav.id}`} className={`text-blueDianne relative group`}>
               {nav.content}
+              {/* Start onHover Underline */}
               <span className='absolute -bottom-1 left-0 w-0 h-0.5 bg-sunsetOrange transition-all group-hover:w-full'></span>
             </a>
           </li>
@@ -33,7 +39,7 @@ const Navbar = () => {
       </ul>
 
       {/* START SMALL DEVICE NAV */}
-      <div className='sm:hidden flex flex-1 justify-end items-center z-20'>
+      <div className='sm:hidden flex flex-1 justify-end items-center '>
         <img
           className='w-[28px] h-[28px] object-contain cursor-pointer'
           src={toggle ? closeIcon : menuIcon}
@@ -43,7 +49,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`${toggle ? "flex" : "hidden"} p-6
+        className={`${toggle ? "flex" : "hidden"} z-[100] p-6
         bg-blueDianne
         opacity-90
         absolute 
@@ -56,7 +62,7 @@ const Navbar = () => {
         sidebar`}
       >
         {/* START BURGER MENU NAV LINKS */}
-        <ul className='list-none flex flex-col cursor-pointer justify-end items-center flex-1 z-20'>
+        <ul className='list-none flex flex-col cursor-pointer justify-end items-center flex-1'>
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}

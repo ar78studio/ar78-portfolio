@@ -28,3 +28,36 @@
   scroll-behavior: smooth;
 }
 
+p {
+  margin-bottom: 0.6rem;
+}
+
+.svgGreen {
+  stroke: #A3CCAB;
+}
+
+.svgBlue {
+  stroke: #233D4D;
+}
+
+.stroke-one-point-five {
+  stroke-width: 1.5;
+}
+
+.svgToOrange:hover {
+  stroke: rgba(254, 95, 85, 1);;
+}
+
+.hoverOrange:hover {
+  color: #FE5F55;
+}
+
+.hoverUnderline:hover {
+
+}
+
+.markOrange {
+  color: #FE5F55;
+  background: none;
+}
+

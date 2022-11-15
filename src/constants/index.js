@@ -3,8 +3,6 @@
 import {
   functionImg,
   artemBodyImg,
-  gitHubIcon,
-  twitterIcon,
   openTabIcon,
   pomodorImg,
   invoiceImg,
@@ -53,15 +51,7 @@ export const hero = [
   },
 ];
 
-export const about = [
-  {
-    id: "number1-over",
-    content: "#1",
-  },
-  {
-    id: "number1-under",
-    content: "#1",
-  },
+export const aboutSection = [
   {
     id: "aboutMe-title",
     title: "// About Me",
@@ -92,25 +82,21 @@ export const about = [
   },
   {
     id: "technologies",
-    content: "+ HTML 5, CSS 3",
-    content: "+ JavaScript (ES6+)",
-    content: "+ API",
-    content: "+ React.js",
-    content: "+ Wordpress",
+    content: "+ HTML 5, CSS 3 JavaScript (ES6+) + API + React.js + Wordpress",
   },
   {
     id: "software",
-    content: "+ Figma, Adobe XD",
-    content: "+ Photoshop, Illustrator",
-    content: "+ 3D Studio max, Blender",
-    content: "+ Sketchup",
-    content: "+ Final Cut Pro",
+    content:
+      "+ Figma, Adobe XD + Photoshop, Illustrator + 3D Studio max, Blender + Sketchup + Final Cut Pro",
   },
-  {
-    id: "about-git-twitter",
-    icon: gitHubIcon,
-    icon: twitterIcon,
-  },
+  // {
+  //   id: "software",
+  //   content: "+ Figma, Adobe XD",
+  //   content: "+ Photoshop, Illustrator",
+  //   content: "+ 3D Studio max, Blender",
+  //   content: "+ Sketchup",
+  //   content: "+ Final Cut Pro",
+  // },
 ];
 
 export const projects = [
@@ -131,32 +117,24 @@ export const projects = [
     title: "| Pomodoro Productivity Timer",
     img: pomodorImg,
     content: "HTML, CSS, JavaScript",
-    icon: gitHubIcon,
-    icon: openTabIcon,
   },
   {
     id: "invoiceGen",
     title: "| Custom Invoice Generator",
     img: invoiceImg,
     content: "HTML, CSS, JavaScript",
-    icon: gitHubIcon,
-    icon: openTabIcon,
   },
   {
     id: "passwordGen",
     title: "| Password Generator",
     content: "HTML, CSS, JavaScript",
     img: passwordImg,
-    icon: gitHubIcon,
-    icon: openTabIcon,
   },
   {
     id: "luxAcres",
     title: "| Real Estate Site Prototype",
     img: luxAcresImg,
     content: "HTML, CSS, JavaScript",
-    icon: gitHubIcon,
-    icon: openTabIcon,
   },
 ];
 
@@ -194,7 +172,5 @@ export const footer = [
   {
     id: "footer",
     content: "Copyright 2022 - AR78.STUDIO //",
-    icon: gitHubIcon,
-    icon: twitterIcon,
   },
 ];
