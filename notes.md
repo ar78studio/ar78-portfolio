@@ -1,25 +1,28 @@
-// from https://blog.logrocket.com/how-to-use-svgs-in-react/
+How to Import SVGs Using the Vite Plugin for SVGR
 
-In order to use SVGs or any other image format in the <img> tag, we have to set up a file loader system in whichever module bundler we’re using. Here, I will show you how to set it up in a few steps if you are already using webpack as your bundler.
+vite-plugin-svgr is a plugin for Vite that uses svgr under the hood to transform SVGs into React components.
 
-First, install the file-loader library with the command $ npm install file-loader --save-dev. This will install it as a dev dependency.
+You can install it by running the following command:
 
-You can update your webpack configuration file rules with this code:
+# with npm
 
-const webpack = require('webpack');
+npm i vite-plugin-svgr
 
-module.exports = {
-entry: './src/index.js',
-module: {
-rules: [
-//...
-{
-test: /\.(png|jp(e\*)g|svg|gif)$/,
-use: [
-{
-loader: 'file-loader',
-options: {
-name: 'images/[hash]-[name].[ext]',
-},
-},
-],
+# with yarn
+
+yarn add vite-plugin-svgr
+
+Next, add the plugin inside your app's vite.config.js:
+
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import svgr from "vite-plugin-svgr";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+plugins: [svgr(), react()],
+});
+
+Now, you can import the SVG files as React components:
+
+import { ReactComponent as Logo } from "./logo.svg";

@@ -33,9 +33,9 @@ const About = () => (
       </div>
 
       <p>
-        Hi there! I am Artem: of the family Repin, and building functional and
-        beautiful things for the web is what I have been focusing on since the
-        year 2020.
+        Hi there! I am Artem: of the family Repin-Muhin, and building functional
+        and beautiful things for the web is what I have been focusing on since
+        the year 2020.
       </p>
       <p>
         For most of my professional career I have crafted functional art out of
@@ -89,13 +89,13 @@ const About = () => (
       </div>
     </div>
 
-    {/* Start Line Separator */}
-    <div className='place-self-center hidden h-64 border-0 sm:border-r-[1px] md:border-r-[1px]  lg:border-r-[1px] xl:border-r-[1px] border-springGreen sm:pl-20'></div>
-
-    <div className='justify-self-center hidden border-0 border-b-[1px] sm:border-b-[0px]  border-springGreen'></div>
+    {/* Start Line Separator Right*/}
+    <div className='place-self-center h-64 border-0 border-r-[1px] md:border-r-[1px]  lg:border-r-[1px] xl:border-r-[1px] border-springGreen sm:pl-20'></div>
+    {/* Start Line Separator Bottom for smaller devices */}
+    <div className='justify-self-center border-0 border-b-[1px] sm:border-b-[1px]  border-springGreen'></div>
 
     {/* Start Github and Twitter Icons */}
-    <div className='flex flex-row hidden place-self-end xs:place-self-end ss:place-self-end sm:place-self-end sm:self-center sm:flex-col ml-7'>
+    <div className='flex flex-row place-self-end xs:place-self-end ss:place-self-end sm:place-self-end sm:self-center sm:flex-col ml-7'>
       <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
         <div>
           <GithubIcon className='svgGreen svgToOrange mb-6' />
