@@ -1,13 +1,13 @@
 import React from "react";
 import "../index.css";
-import { ReactComponent as GithubGreenIcon } from "../assets/githubGreen.svg";
+import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as OpenTabIcon } from "../assets/arrowOpenWindow.svg";
 import { invoiceImg, pomodorImg } from "../assets";
 
 const Projects = () => (
   <section
     id='projects'
-    className={`flex flex-col relative lg:max-w-6xl sm:mt-[3rem] md:mt-[4rem] lg:mt-[5rem] py-10 m-auto`}
+    className={`flex flex-col relative lg:max-w-6xl sm:mt-[3rem] md:mt-[4rem] lg:mt-[5rem] py-10 px-12 m-auto`}
   >
     {/* Start Pomodoro Project */}
     <div className='flex font-roboto text-springGreen font-base text-[1rem]'>
@@ -30,11 +30,11 @@ const Projects = () => (
         </h4>
       </div>
 
-      <div className={`flex flex-col mt-10`}>
+      <div className={`flex flex-col mt-8`}>
         <img
           src={pomodorImg}
           alt='Pomodoro Productivity Timer'
-          className='object-cover h-[40%] w-[37%] shadow-xl rounded-xl'
+          className='h-[40%] w-[37%] shadow-xl rounded-xl hover:-translate-y-2 transition duration-500 cursor-pointer'
         />
       </div>
 
@@ -46,7 +46,7 @@ const Projects = () => (
         <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
           <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
             <div>
-              <GithubGreenIcon
+              <GithubIcon
                 className={`svgBlue stroke-one-point-five svgToOrange mr-8`}
               />
             </div>
@@ -78,11 +78,11 @@ const Projects = () => (
         </h4>
       </div>
 
-      <div className={`flex flex-col mt-10`}>
+      <div className={`flex flex-col mt-8`}>
         <img
           src={invoiceImg}
-          alt='Pomodoro Productivity Timer'
-          className='object-cover h-[40%] w-[37%] shadow-xl rounded-xl'
+          alt='Custom Invoice Generator'
+          className='object-cover h-[40%] w-[37%] shadow-xl rounded-xl hover:-translate-y-2 transition duration-500 cursor-pointer'
         />
       </div>
 
@@ -92,9 +92,12 @@ const Projects = () => (
         </span>
         {/* Start Github and Open-Tab Icons */}
         <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
-          <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
+          <a
+            href='https://github.com/ar78studio/invoice-creator'
+            alt='GitHub - AR78.studio'
+          >
             <div>
-              <GithubGreenIcon
+              <GithubIcon
                 className={`svgBlue stroke-one-point-five svgToOrange mr-8`}
               />
             </div>
@@ -110,9 +113,9 @@ const Projects = () => (
         </div>
         {/* Stop Github and Open-Tab Icons */}
       </div>
-      {/* End Pomodoro */}
+      {/* End Invoice */}
     </div>
-    {/* End Pomodoro Project  */}
+    {/* End Invoice Project  */}
   </section>
 );
 

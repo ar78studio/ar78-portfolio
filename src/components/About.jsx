@@ -1,14 +1,14 @@
 import React from "react";
 import "../index.css";
-import { ReactComponent as GithubGreenIcon } from "../assets/githubGreen.svg";
-import { ReactComponent as TwitterGreenIcon } from "../assets/twitterGreen.svg";
+import { ReactComponent as GithubIcon } from "../assets/github.svg";
+import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 
 import { aboutSection } from "../constants";
 
 const About = () => (
   <section
     id='about'
-    className={`flex relative justify-around lg:max-w-4xl sm:mt-[3rem] md:mt-[4rem] lg:mt-[5rem] my-20 m-auto`}
+    className={`flex relative justify-around lg:max-w-4xl sm:mt-[6rem] md:mt-[6rem] lg:mt-[7rem] my-20 px-12 m-auto`}
   >
     {/* <div className=''>
       {aboutSection.map((about) => (
@@ -72,6 +72,7 @@ const About = () => (
       <div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-8 mb-20 justify-around'>
         <ul className='flex flex-col '>
           <li>+ HTML 5, CSS 3</li>
+          <li>+ Tailwind CSS</li>
           <li>+ JavaScript (ES6+)</li>
           <li>+ API</li>
           <li>+ React.js</li>
@@ -89,15 +90,15 @@ const About = () => (
     </div>
 
     {/* Start Line Separator */}
-    <div className='place-self-center h-64 border-0 sm:border-r-[1px] md:border-r-[1px]  lg:border-r-[1px] xl:border-r-[1px] border-springGreen sm:pl-20'></div>
+    <div className='place-self-center hidden h-64 border-0 sm:border-r-[1px] md:border-r-[1px]  lg:border-r-[1px] xl:border-r-[1px] border-springGreen sm:pl-20'></div>
 
-    <div className='justify-self-center border-0 border-b-[1px] sm:border-b-[0px]  border-springGreen'></div>
+    <div className='justify-self-center hidden border-0 border-b-[1px] sm:border-b-[0px]  border-springGreen'></div>
 
     {/* Start Github and Twitter Icons */}
-    <div className='flex flex-row place-self-end xs:place-self-end ss:place-self-end sm:place-self-end sm:flex-col sm:place-self-center ml-7'>
+    <div className='flex flex-row hidden place-self-end xs:place-self-end ss:place-self-end sm:place-self-end sm:self-center sm:flex-col ml-7'>
       <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
         <div>
-          <GithubGreenIcon className='svgGreen svgToOrange mb-6' />
+          <GithubIcon className='svgGreen svgToOrange mb-6' />
         </div>
       </a>
       <a
@@ -105,7 +106,7 @@ const About = () => (
         alt='Twiter - Artem: of the family Repin'
       >
         <div>
-          <TwitterGreenIcon className='svgGreen svgToOrange' />
+          <TwitterIcon className='svgGreen svgToOrange' />
         </div>
       </a>
     </div>
