@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../index.css";
 import { navLinks } from "../constants/index";
 import { closeIcon, menuIcon } from "../assets/index.js";
 import styles from "../style";
@@ -8,13 +9,10 @@ const Navbar = () => {
   return (
     <nav className='w-full px-4 flex py-4 justify-between items-center navbar'>
       <div>
-        <span className='text-xl sm:md:lg:text-2xl font-bold text-blueDianne'>
-          AR78
+        <span className='text-xl lg:text-4xl font-bold text-blueDianne'>
+          <a href='https://ar78.studio'>AR78</a>
         </span>
-        <span className='text-2xl sm:mg:lg:text-3xl text-sunsetOrange'>
-          {" "}
-          //
-        </span>
+        <span className='text-2xl lg:text-5xl text-sunsetOrange'> //</span>
       </div>
       {/* START NAV LINKS */}
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
@@ -31,7 +29,7 @@ const Navbar = () => {
             </a>
             <a href={`#${nav.id}`} className={`text-blueDianne relative group`}>
               {nav.content}
-              {/* Start onHover Underline */}
+              {/* START MENU LINKS HOVER UNDERLINE */}
               <span className='absolute -bottom-1 left-0 w-0 h-0.5 bg-sunsetOrange transition-all group-hover:w-full'></span>
             </a>
           </li>
@@ -39,30 +37,32 @@ const Navbar = () => {
       </ul>
 
       {/* START SMALL DEVICE NAV */}
-      <div className='sm:hidden flex flex-1 justify-end items-center '>
+      <div className='sm:hidden flex flex-1 justify-end items-center right-6 z-[200] animate-pulse'>
         <img
-          className='w-[28px] h-[28px] object-contain cursor-pointer'
+          className={`w-[40px] h-[40px] object-contain cursor-pointer stroke-one-point-five`}
           src={toggle ? closeIcon : menuIcon}
           alt='menu'
           onClick={() => setToggle((prev) => !prev)}
         />
       </div>
 
+      {/* START BLUE HIDDEN MENU BACKGROUND */}
       <div
-        className={`${toggle ? "flex" : "hidden"} z-[100] p-6
+        className={`${toggle ? "flex" : "hidden"} z-[100] 
         bg-blueDianne
         opacity-90
-        absolute 
-        top-20 
-        right-0 
-        mx-4 
-        my-2  
-        w-11/12
-        rounded-md
-        sidebar`}
+        fixed
+        top-0
+        bottom-0
+        right-0  
+        h-screen
+        w-4/5
+        duration-700
+        ease-in-out
+        `}
       >
         {/* START BURGER MENU NAV LINKS */}
-        <ul className='list-none flex flex-col cursor-pointer justify-end items-center flex-1'>
+        <ul className='list-none flex flex-col cursor-pointer justify-center align-top items-center flex-1'>
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}

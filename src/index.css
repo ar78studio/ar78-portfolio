@@ -7,10 +7,10 @@
 /* Variables */
 
 :root {
-  --blue-dianne: rgba(35, 61, 77, 1);
-  --spring-green: rgba(163, 204, 171, 1);
-  --light-beige: rgba(244, 241, 222, 1);
-  --sunset-orange: rgba(254, 95, 85, 1);
+  --blue-dianne: #233d4d;
+  --spring-green: #a3ccab;
+  --light-beige: #f4f1de;
+  --sunset-orange: #fe5f55;
 
   --font-size-m: 11px;
   --font-size-l: 16px;
