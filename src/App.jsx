@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style";
+
 import {
   Navbar,
   Hero,
@@ -14,13 +15,13 @@ const App = () => (
   // START OF BODY WRAP
   <div className='w-full overflow-hidden'>
     {/* Start of Navbar */}
-    <div className='bg-springGreen'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
+    {/* <div className='bg-springGreen'> */}
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
       </div>
     </div>
+    {/* </div> */}
     {/* End of Navbar */}
 
     {/* Start of Hero Section */}

@@ -4,7 +4,7 @@ import { functionImg, artemBodyImg } from "../assets/index.js";
 const Hero = () => (
   <section
     id='home'
-    className={`flex relative sm:flex-row xs:flex-row pt-20 lg:pt-20 pl-4 lg:px-16`}
+    className={`flex m-auto xl:max-w-[1280px] relative sm:flex-row xs:flex-row pt-[7rem] lg:pt-[9rem] pl-4 md:px-[6rem] sm:px-[4rem]`}
   >
     <div className={`flex-col`}>
       <p className='text-blueDianne text-xs sm:text-lg md:text-2xl lg:text-2xl font-bold'>

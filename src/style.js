@@ -1,5 +1,6 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full",
+  // boxWidth: "xl:max-w-[1280px] lg:w-full w-full",
+  boxWidth: "w-full",
 
   heading2:
     "font-montserrat font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
@@ -9,12 +10,13 @@ const styles = {
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 
-  paddingX: "sm:px-10 px-2",
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  boxShadow: "",
 };
 
 export const layout = {

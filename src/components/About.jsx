@@ -8,7 +8,7 @@ import { aboutSection } from "../constants";
 const About = () => (
   <section
     id='about'
-    className={`flex relative w-full m-auto lg:w-10/12 px-[10%] sm:mt-[6rem] md:mt-[6rem] lg:mt-[7rem] my-20`}
+    className={`flex m-auto xl:max-w-[1280px] relative w-full lg:w-10/12 px-[10%] sm:mt-[6rem] md:mt-[6rem] lg:mt-[7rem] my-20`}
   >
     {/* <div className=''>
       {aboutSection.map((about) => (

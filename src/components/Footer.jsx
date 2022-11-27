@@ -7,8 +7,8 @@ const Footer = () => (
   <section className={`my-2`}>
     <div className='flex justify-center'>
       <h4 className={`text-base font-bold text-blueDianne`}>
-        <mark className='markOrange'>AR78 //</mark> Designed & Built by Artem:
-        of the family Repin-Muhin
+        Designed & Built by Artem: of the family Repin-Muhin -{" "}
+        <mark className='markOrange'> AR78.STUDIO</mark>
       </h4>
     </div>
 

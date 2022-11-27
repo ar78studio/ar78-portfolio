@@ -5,7 +5,10 @@ import { ReactComponent as OpenTabIcon } from "../assets/arrowOpenWindow.svg";
 import { invoiceImg, luxAcresImg, passwordImg, pomodorImg } from "../assets";
 
 const Projects = () => (
-  <section id='projects' className={`flex flex-col relative my-[6rem]`}>
+  <section
+    id='projects'
+    className={`flex m-auto xl:max-w-[1280px] flex-col relative my-[6rem]`}
+  >
     {/* Start Projects Header H3 */}
     <div className='flex flex-row ml-[2.5rem] sm:ml-[7.4rem] font-roboto text-springGreen font-base text-[1rem]'>
       <h3 className='text-3xl font-normal text-sunsetOrange'>//</h3>

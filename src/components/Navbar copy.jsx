@@ -2,32 +2,12 @@ import { useState } from "react";
 import "../index.css";
 import { navLinks } from "../constants/index";
 import { closeIcon, menuIcon } from "../assets/index.js";
+import styles from "../style";
 
 const Navbar = () => {
-  // toggle between burger menu and close button hidden menu
   const [toggle, setToggle] = useState(false);
-
-  // float nav menu on scroll up and down with shadow
-  const [navbar, setNavbar] = useState(false);
-
-  const currentScroll = window.scrollY;
-
-  const floatNavbar = () => {
-    if (currentScroll < window.scrollY) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  window.addEventListener("scroll", floatNavbar);
-
   return (
-    <nav
-      className={` ${
-        navbar ? "navbar down" : "navbar up"
-      } w-full px-[2rem] md:px-[6rem] flex py-4 justify-between items-center z-[100]`}
-    >
+    <nav className='w-full px-4 flex py-4 justify-between items-center navbar'>
       <div>
         <span className='text-xl lg:text-4xl font-bold text-blueDianne'>
           <a href='https://ar78.studio'>AR78</a>
