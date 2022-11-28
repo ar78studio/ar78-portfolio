@@ -34,7 +34,7 @@ const Hero = () => (
         </span>
       </div>
     </div>
-    <div className={`flex flex-col z-[1] justify-end`}>
+    <div className={`flex flex-col z-[1] justify-end bottom-0`}>
       <img
         src={artemBodyImg}
         alt='Artem: of the family Repin-Muhin, Front End Developer / Engineer'
