@@ -61,6 +61,12 @@ p {
   background: none;
 }
 
+.burgerMenuSlide {
+  transform: translate3d(10%, 0, 0);
+  transition: ease-in-out 600ms;
+
+}
+
 .navbar {
   background-color: rgb(163, 204, 171);
   transition: ease-in-out 200ms;

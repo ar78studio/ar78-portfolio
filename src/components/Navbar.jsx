@@ -11,6 +11,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   const currentScroll = window.scrollY;
+  console.log(currentScroll);
 
   const floatNavbar = () => {
     if (currentScroll < window.scrollY) {
@@ -39,7 +40,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-roboto font-medium cursor-pointer text-[1rem] 
+            className={`font-roboto font-medium cursor-pointer text-[1rem] hover:text-springGreen
             // Next line of code gives margin right to all but the last nav link. Nav links are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}
             `}
@@ -57,6 +58,7 @@ const Navbar = () => {
       </ul>
 
       {/* START SMALL DEVICE NAV */}
+      {/* Burger Menu and the Close Button */}
       <div className='sm:hidden flex flex-1 justify-end items-center right-6 z-[200] animate-pulse'>
         <img
           className={`w-[40px] h-[40px] object-contain cursor-pointer stroke-one-point-five`}
@@ -71,14 +73,13 @@ const Navbar = () => {
         className={`${toggle ? "flex" : "hidden"} z-[100] 
         bg-blueDianne
         opacity-90
+        burgerMenuSlide
         fixed
         top-0
         bottom-0
         right-0  
         h-screen
         w-4/5
-        duration-700
-        ease-in-out
         `}
       >
         {/* START BURGER MENU NAV LINKS */}
@@ -89,7 +90,7 @@ const Navbar = () => {
               className={`font-roboto font-normal text-[16px] 
             // Next line of code gives margin right to all but the last nav link. Nav link are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mb-4"}
-            text-sunsetOrange font-bold`}
+            text-sunsetOrange font-bold hover:text-springGreen`}
             >
               <a href={`#${nav.id}`}>
                 {/* {nav.title} */}

@@ -26,10 +26,10 @@ const Hero = () => (
           {">>"}
         </span>
         <span
-          className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mr-4 mt-1 sm:text-[0.75rem] md:text-[1rem] mx-0 sm:mr-30 lg:mr-40 pb-10`}
+          className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mr-4 mt-1 sm:text-[0.75rem] md:text-[1rem] mx-0 sm:mr-30 lg:mr-40 pb-20 lg:pb-40`}
         >
           {
-            "I am a passionate and thirsty Front End Engineer who appreciates good web design aesthetics and strives to produce clean code. While occasionally stalked by an Impostor Syndrome, I find my safety in learning new techonologies and libraries and perfecting my librarian-programmer skills. Currently, I am working on expanding my knowledge base in APIs and React.js"
+            "I am a passionate and thirsty Front End Engineer / Developer who appreciates good web design aesthetics and strives to produce clean code. If occasionally stalked by an Impostor Syndrome, I find my safety in consistent learning of new techonologies and libraries and reinforcing the gained knoledge along with perfecting my developer-librarian skills in the Google Library. Currently, I am working on expanding my knowledge base in APIs and React.js"
           }
         </span>
       </div>

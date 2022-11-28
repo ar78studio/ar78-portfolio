@@ -44,11 +44,11 @@ const About = () => (
         <p>
           For most of my professional career I have crafted functional art out
           of wood and metal, while also guiding, managing and overseeing
-          creative talent working with me. While learning and playing with HTML,
-          CSS, and JavaScript throughout my life in my spare time, I realised
-          that <mark className='markOrange'>web development </mark> has grown
-          into a <mark className='markOrange'>passion</mark> to pursue, as the
-          digital playground provides an enormous pool of inspiration and
+          creative talent working with me. While learning and "playing" with
+          HTML, CSS, and JavaScript throughout my life in my spare time, I
+          realised that <mark className='markOrange'>web development </mark> has
+          grown into a <mark className='markOrange'>passion</mark> to pursue, as
+          the digital playground provides an enormous pool of inspiration and
           possibilities to create useful and world-changing applications.
         </p>
 
@@ -56,7 +56,7 @@ const About = () => (
           Last few years have proven to be pivotal in wanting to dedicate myself
           fully to growing my skills with a{" "}
           <mark className='markOrange'>
-            goal of joining a remote team as a Front End Engineer.
+            goal of joining a remote team as a Front End Developer.
           </mark>
         </p>
 

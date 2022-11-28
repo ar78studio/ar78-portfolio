@@ -4,9 +4,9 @@ import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 
 const Footer = () => (
-  <section className={`my-2`}>
-    <div className='flex justify-center'>
-      <h4 className={`text-base font-bold text-blueDianne`}>
+  <section className={`py-2`}>
+    <div className='flex justify-center m-auto'>
+      <h4 className={`text-[0.6rem] sm:text-base font-bold text-blueDianne`}>
         Designed & Built by Artem: of the family Repin-Muhin -{" "}
         <mark className='markOrange'> AR78.STUDIO</mark>
       </h4>
@@ -21,7 +21,7 @@ const Footer = () => (
       </a>
       <a
         href='https://twitter.com/GeochiNova'
-        alt='Twiter - Artem: of the family Repin'
+        alt='Twitter - Artem: of the family Repin'
       >
         <div>
           <TwitterIcon className='svgBlue svgToOrange h-5' />

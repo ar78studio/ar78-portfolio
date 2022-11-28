@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="647" height="261" viewBox="0 0 647 261">
 
 <text transform="translate(0 170)" fill="#f4f1de" font-size="23" font-family="Roboto-Bold, Roboto" font-weight="400">
-<tspan x="0" y="31">frontEndEngineer</tspan>
+<tspan x="0" y="31">frontEndDeveloper</tspan>
 <tspan y="31" fill="#a3ccab"> </tspan>
 <tspan y="31" fill="#233d4d">( )</tspan>
 </text>
@@ -24,7 +24,7 @@
 <text fill="#233d4d" font-size="23" font-family="Roboto-Bold, Roboto" font-weight="400">
 <tspan x="0" y="31">function </tspan>
 
-<tspan y="31" fill="#f4f1de">frontEndEngineer</tspan>
+<tspan y="31" fill="#f4f1de">frontEndDeveloper</tspan>
 <tspan y="31" xml:space="preserve"> (</tspan>
 <tspan y="31" fill="#a3ccab">code</tspan>
 <tspan y="31">, </tspan>
