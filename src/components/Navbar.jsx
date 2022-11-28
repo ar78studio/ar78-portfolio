@@ -14,7 +14,7 @@ const Navbar = () => {
   console.log(currentScroll);
 
   const floatNavbar = () => {
-    if (currentScroll < window.scrollY) {
+    if (currentScroll < window.scrollY && window.scrollY >= 64) {
       setNavbar(true);
     } else {
       setNavbar(false);
