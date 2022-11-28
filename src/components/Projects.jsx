@@ -21,7 +21,7 @@ const Projects = () => (
         id='projectsWrap_01'
         className={`flex flex-col mt-8 sm:flex-col sm:m-auto px-10`}
       >
-        {/* Start Project Section  */}
+        {/* Start Project #1 Wrap  */}
         <div className={`flex flex-col sm:mt-[2rem] md:mt-[2rem] lg:mt-[3rem]`}>
           {/* Start Pomodoro */}
           <div className='flex flex-row'>
@@ -32,12 +32,27 @@ const Projects = () => (
               Pomodoro Productivity Timer
             </h4>
           </div>
-
-          <img
-            src={pomodorImg}
-            alt='Pomodoro Productivity Timer'
-            className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:-translate-y-2 transition duration-500 cursor-pointer'
-          />
+          <div>
+            <div className='fixed'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+              quae nisi expedita excepturi tempore nihil sequi laboriosam, unde
+              velit, commodi doloremque. Tempore inventore enim odio laudantium
+              eaque perferendis itaque illo ex, numquam odit sequi facilis qui
+              expedita, laborum cumque quo fugit nam soluta beatae totam.
+              Consequuntur unde tempore dolore, consectetur a iste vero,
+              deleniti laudantium dolorum debitis corporis optio excepturi
+              eligendi reprehenderit illo nemo laborum necessitatibus sed
+              doloremque aut voluptas. Inventore, eos, vel placeat qui numquam
+              modi, reprehenderit maxime illo perspiciatis molestiae consectetur
+              laborum omnis nemo unde nisi iste facilis suscipit aliquam
+              accusantium. Impedit iste labore quaerat cupiditate culpa quam!
+            </div>
+            <img
+              src={pomodorImg}
+              alt='Pomodoro Productivity Timer'
+              className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:-translate-y-2 transition duration-500 cursor-pointer'
+            />
+          </div>
 
           <div className={`my-8 flex flex-col`}>
             <span className={`font-roboto text-blueDianne font-base text-sm`}>
@@ -66,9 +81,9 @@ const Projects = () => (
           </div>
           {/* End Pomodoro */}
         </div>
-        {/* End Pomodoro Project  */}
+        {/* End Project #1 Wrap  */}
 
-        {/* Start Next Project Section  */}
+        {/* Start Project #2 Wrap  */}
         <div className={`flex flex-col sm:mt-[2rem] md:mt-[2rem] lg:mt-[3rem]`}>
           {/* Start Invoice */}
           <div className='flex flex-row'>
@@ -115,9 +130,9 @@ const Projects = () => (
           </div>
           {/* End Invoice */}
         </div>
-        {/* End Next Project Section  */}
+        {/* End Project #2 Wrap  */}
 
-        {/* Start Next Project Section  */}
+        {/* Start Project #3 Wrap  */}
         <div className={`flex flex-col sm:mt-[2rem] md:mt-[2rem] lg:mt-[3rem]`}>
           {/* Start Password Generator */}
           <div className='flex flex-row'>
@@ -164,10 +179,14 @@ const Projects = () => (
           </div>
           {/* End Password Generator */}
         </div>
-        {/* End Next Project Section  */}
+        {/* End Project #3 Wrap  */}
       </div>
 
-      <div id='projectsWrap_02' className={`flex flex-col sm:flex-col px-10`}>
+      <section
+        id='flexSection02-Wrap'
+        className={`flex flex-col sm:flex-col px-10`}
+      >
+        {/* Start Project #4 Wrap */}
         <div className={`flex flex-col sm:mt-[2rem] md:mt-[2rem] lg:mt-[3rem]`}>
           {/* Start Lux Acres */}
           <div className='flex flex-row'>
@@ -214,7 +233,8 @@ const Projects = () => (
           </div>
           {/* End Password Generator */}
         </div>
-      </div>
+        {/* End Project #4 Wrap */}
+      </section>
     </section>
     {/* To absolutely position the #1 I set the section class above to relative */}
     <div>

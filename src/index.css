@@ -61,8 +61,14 @@ p {
   background: none;
 }
 
-.burgerMenuSlide {
-  transform: translate3d(10%, 0, 0);
+/* Show and hide Hidden Menu */
+.menuSlideIn {
+  transform: translateX(100%);
+  transition: ease-in-out 600ms;
+}
+
+.menuSlideOut {
+  transform: translateX((-100%));
   transition: ease-in-out 600ms;
 
 }

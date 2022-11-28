@@ -4,7 +4,7 @@ import { functionImg, artemBodyImg } from "../assets/index.js";
 const Hero = () => (
   <section
     id='home'
-    className={`flex m-auto xl:max-w-[1280px] relative sm:flex-row xs:flex-row pt-[7rem] lg:pt-[9rem] pl-4 md:px-[6rem] sm:px-[4rem]`}
+    className={`flex m-auto xl:max-w-[1280px] relative sm:flex-row xs:flex-row pt-[7rem] lg:pt-[9rem] pl-6 md:px-[6rem] sm:px-[4rem]`}
   >
     <div className={`flex-col`}>
       <p className='text-blueDianne text-xs sm:text-lg md:text-2xl lg:text-2xl font-bold'>
@@ -20,7 +20,7 @@ const Hero = () => (
       {/* Start Hero I am passioanate Dev */}
       <div className={`flex flex-row w-full mr-4`}>
         <span
-          className={`text-blueDianne font-bold text-xs mr-3 mt-2 sm:text-[12px] md:text-[16px] mx-0 pb-10`}
+          className={`text-blueDianne font-bold text-xs mr-3 mt-1 sm:text-[12px] md:text-[16px] mx-0 pb-10`}
         >
           {" "}
           {">>"}
@@ -37,7 +37,7 @@ const Hero = () => (
     <div className={`flex flex-col z-[1] justify-end`}>
       <img
         src={artemBodyImg}
-        alt='Artem: of the family Repin-Muhin, Front End Engineer'
+        alt='Artem: of the family Repin-Muhin, Front End Developer / Engineer'
         className='max-full w-auto object-contain mr-4'
       />
     </div>

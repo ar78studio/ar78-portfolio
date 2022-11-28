@@ -40,7 +40,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-roboto font-medium cursor-pointer text-[1rem] hover:text-springGreen
+            className={`font-roboto font-medium cursor-pointer mr-6 text-[0.8rem] md:text-[1rem] 
             // Next line of code gives margin right to all but the last nav link. Nav links are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}
             `}
@@ -63,19 +63,20 @@ const Navbar = () => {
         <img
           className={`w-[40px] h-[40px] object-contain cursor-pointer stroke-one-point-five`}
           src={toggle ? closeIcon : menuIcon}
-          alt='menu'
+          alt='Menu'
           onClick={() => setToggle((prev) => !prev)}
         />
       </div>
 
       {/* START BLUE HIDDEN MENU BACKGROUND */}
       <div
-        className={`${toggle ? "flex" : "hidden"} z-[100] 
+        // className={`${toggle ? "flex" : "hidden"} z-[100]
+        className={`${toggle ? "menuSlideOut" : "menuSlideIn"} z-[100] 
         bg-blueDianne
         opacity-90
         burgerMenuSlide
         fixed
-        top-0
+        top-[4.5rem]
         bottom-0
         right-0  
         h-screen
@@ -83,7 +84,7 @@ const Navbar = () => {
         `}
       >
         {/* START BURGER MENU NAV LINKS */}
-        <ul className='list-none flex flex-col cursor-pointer justify-center align-top items-center flex-1'>
+        <ul className='list-none flex flex-col cursor-pointer justify-start mt-[5rem] items-center leading-10 flex-1'>
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
