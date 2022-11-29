@@ -9,7 +9,6 @@ import { closeIcon } from "../assets/index.js";
 
 const Projects = () => {
   const [toggle, setToggle] = useState(false);
-  const [fade, setFade] = useState(false);
 
   return (
     <section
@@ -51,7 +50,7 @@ const Projects = () => {
               {/* Toggles the Close button for the hidden description window   */}
               <div
                 className={`${toggle ? "border-box fadeIn" : "fadeOut"} }
-              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 rounded-md`}
+              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 sm:p-4 rounded-md z-[99]`}
               >
                 <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
                   <h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>

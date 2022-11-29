@@ -74,7 +74,6 @@ const Navbar = () => {
         className={`${toggle ? "menuSlideOut" : "menuSlideIn"} z-[100] 
         bg-blueDianne
         opacity-90
-        burgerMenuSlide
         fixed
         top-[4.5rem]
         bottom-0
