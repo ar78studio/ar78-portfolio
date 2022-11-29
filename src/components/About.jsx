@@ -75,7 +75,7 @@ const About = () => (
         <p>I have worked with the following technologies and software:</p>
       </div>
 
-      <div className='text-sunsetOrange flex flex-row sm:flex-row md:flex-row lg:flex-row mt-14 mb-10 justify-around'>
+      <div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-14 mb-10 justify-around'>
         <ul className='flex flex-col '>
           <li>+ JavaScript (ES6+)</li>
           <li>+ React.js</li>
@@ -95,7 +95,7 @@ const About = () => (
       </div>
 
       {/* Start Line Separator Bottom for smaller devices */}
-      <div className='m-auto lg:mt-[5rem] border-0 border-b-[1px] w-64 sm:w-96 md:w-96 lg:w-96 lg:border-b-[1px] md:border-b-[0px] sm:border-b-[1px]  border-springGreen mb-8'></div>
+      <div className='m-auto lg:mt-[5rem] border-b-[1px] w-[18rem] sm:w-[25rem] md:w-[35rem] lg:w-[45rem] lg:border-b-[1px] md:border-b-[1px] sm:border-b-[1px]  border-springGreen mb-8'></div>
 
       {/* Start Github and Twitter Icons */}
       <div className={`flex flex-wrap justify-center mb-10`}>
