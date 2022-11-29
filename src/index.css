@@ -65,6 +65,10 @@ p {
   background-color: rgba(255, 255, 255,0.9);
 }
 
+.blur {
+  filter: blur(0.4rem);
+}
+
 /* Show and hide Hidden Menu */
 .menuSlideIn {
   transform: translateX(100%);
@@ -80,15 +84,22 @@ p {
 .navbar {
   background-color: rgb(163, 204, 171);
   transition: ease-in-out 200ms;
-  
+
 }
 
 /* Projects Description */
 
-.rotate {
-  transform: scale3d(1,1,1);
-  transition: ease-in-out 500ms;
+.fadeIn {
+  opacity: 1.00;
+  transition: ease-in-out 200ms;
 } 
+
+.fadeOut {
+  opacity: 0.00;
+  transition: ease-in-out 200ms;
+  visibility: hidden;
+
+}
 
 
 /* Sticky Navigation */

@@ -9,6 +9,7 @@ import { closeIcon } from "../assets/index.js";
 
 const Projects = () => {
   const [toggle, setToggle] = useState(false);
+  const [fade, setFade] = useState(false);
 
   return (
     <section
@@ -42,20 +43,15 @@ const Projects = () => {
             </div>
             {/* Start Pomodoro Description on:hover window */}
             <div className='relative'>
-              {/* <img
-                src={clickHere}
-                className={`absolute top-20 right-10 w-[2rem] h-[2rem] svgGreen animate-pulse`}
-                alt='Click the Image for more details'
-              /> */}
               <div>
                 <ClickHere
-                  className={` absolute top-20 right-10 svgGreen h-[3rem] w-[3rem] animate-pulse `}
+                  className={` absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
                 />
               </div>
+              {/* Toggles the Close button for the hidden description window   */}
               <div
-                className={`
-              ${toggle ? "border-box" : "hidden"}
-              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 rounded-md rotate`}
+                className={`${toggle ? "border-box fadeIn" : "fadeOut"} }
+              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 rounded-md`}
               >
                 <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
                   <h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>
