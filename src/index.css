@@ -61,6 +61,10 @@ p {
   background: none;
 }
 
+.projectBgWhite {
+  background-color: rgba(255, 255, 255,0.9);
+}
+
 /* Show and hide Hidden Menu */
 .menuSlideIn {
   transform: translateX(100%);
