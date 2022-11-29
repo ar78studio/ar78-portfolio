@@ -83,9 +83,15 @@ p {
   
 }
 
+/* Projects Description */
+
+.rotate {
+  transform: scale3d(1,1,1);
+  transition: ease-in-out 500ms;
+} 
+
+
 /* Sticky Navigation */
-
-
 .navbar.down {
   opacity: 0.95;
   transform: translate3d(0, -100%, 0);

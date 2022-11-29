@@ -3,8 +3,9 @@ import { useState } from "react";
 import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as OpenTabIcon } from "../assets/arrowOpenWindow.svg";
+import { ReactComponent as ClickHere } from "../assets/clickHere.svg";
 import { invoiceImg, luxAcresImg, passwordImg, pomodorImg } from "../assets";
-import { closeIcon, menuIcon } from "../assets/index.js";
+import { closeIcon } from "../assets/index.js";
 
 const Projects = () => {
   const [toggle, setToggle] = useState(false);
@@ -41,26 +42,39 @@ const Projects = () => {
             </div>
             {/* Start Pomodoro Description on:hover window */}
             <div className='relative'>
+              {/* <img
+                src={clickHere}
+                className={`absolute top-20 right-10 w-[2rem] h-[2rem] svgGreen animate-pulse`}
+                alt='Click the Image for more details'
+              /> */}
+              <div>
+                <ClickHere
+                  className={` absolute top-20 right-10 svgGreen h-[3rem] w-[3rem] animate-pulse `}
+                />
+              </div>
               <div
                 className={`
               ${toggle ? "border-box" : "hidden"}
-              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] rounded-md`}
+              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 rounded-md rotate`}
               >
-                <div className='flex flex-1 justify-end items-center right-6 z-[200] '>
+                <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
+                  <h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>
+                    Pomodoro Timer
+                  </h4>
                   <img
-                    className={`w-[20px] h-[20px] m-2 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
-                    src={toggle ? closeIcon : closeIcon}
+                    className={`w-[20px] h-[20px] mx-2 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
+                    src={closeIcon}
                     alt='Close Description'
                     onClick={() => setToggle((prev) => !prev)}
                   />
                 </div>
-                <p className='p-5 pt-0 text-base sm:text-sm font-medium font-roboto text-blueDianne'>
-                  I have built this Pomodoro Timer as a Front End Mentor
-                  challenge and to also help me stay productive and not burn
-                  out, as it is easy to get in the creative zone and forget
-                  about the needs of the body while coding.
+                <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  I have built this app as a Front End Mentor challenge and to
+                  also help me stay productive and not burn out, as it is easy
+                  to get in the creative zone and forget about the needs of the
+                  body while coding.
                 </p>
-                <p className='p-5 pt-0 text-base sm:text-sm font-medium font-roboto text-blueDianne'>
+                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
                   I felt that taking on a challenging project would help me
                   advance faster with the JavaScript and CSS concepts. One of
                   the challenges that I had to overcome is to create an accurate
