@@ -4,11 +4,15 @@ import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as OpenTabIcon } from "../assets/arrowOpenWindow.svg";
 import { ReactComponent as ClickHere } from "../assets/clickHere.svg";
+import { GiClick } from "react-icons/Gi";
 import { invoiceImg, luxAcresImg, passwordImg, pomodorImg } from "../assets";
 import { closeIcon } from "../assets/index.js";
 
 const Projects = () => {
-  const [toggle, setToggle] = useState(false);
+  const [togglePomodoro, setTogglePomodoro] = useState(false);
+  const [toggleInvoice, setToggleInvoice] = useState(false);
+  const [togglePassword, setTogglePassword] = useState(false);
+  const [toggleLuxAcres, setToggleLuxAcres] = useState(false);
 
   return (
     <section
@@ -40,16 +44,19 @@ const Projects = () => {
                 Pomodoro Productivity Timer
               </h4>
             </div>
-            {/* Start Pomodoro Description on:hover window */}
+            {/* Start Pomodoro Description on:click window */}
             <div className='relative'>
               <div>
-                <ClickHere
-                  className={` absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                <GiClick
+                  color='#A3CCAB'
+                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
                 />
               </div>
               {/* Toggles the Close button for the hidden description window   */}
               <div
-                className={`${toggle ? "border-box fadeIn" : "fadeOut"} }
+                className={`${
+                  togglePomodoro ? "border-box fadeIn" : "fadeOut"
+                } }
               absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 sm:p-4 rounded-md z-[99]`}
               >
                 <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
@@ -57,36 +64,36 @@ const Projects = () => {
                     Pomodoro Timer
                   </h4>
                   <img
-                    className={`w-[20px] h-[20px] mx-2 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
+                    className={`w-[20px] h-[20px] ml-3 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
                     src={closeIcon}
                     alt='Close Description'
-                    onClick={() => setToggle((prev) => !prev)}
+                    onClick={() => setTogglePomodoro((prev) => !prev)}
                   />
                 </div>
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I have built this app as a Front End Mentor challenge and to
-                  also help me stay productive and not burn out, as it is easy
-                  to get in the creative zone and forget about the needs of the
-                  body while coding.
+                  This app was coded as a Front End Mentor challenge and also to
+                  help me stay productive and not burn out, as it is easy to get
+                  in the creative zone and forget about the needs of the body
+                  while coding.
                 </p>
                 <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I felt that taking on a challenging project would help me
+                  I also felt that taking on a challenging project would help me
                   advance faster with the JavaScript and CSS concepts. One of
-                  the challenges that I had to overcome is to create an accurate
-                  timer that relies on the date.getTime versus using the
-                  setInterval or setTimeout methods, as the later methods can go
-                  out of sync and create an inacurate timer.
+                  the challenges that I had to overcome was to create an
+                  accurate timer that relies on the date.getTime versus using
+                  the setInterval or setTimeout methods, as the later methods
+                  can go out of sync and create an inacurate timer.
                 </p>
               </div>
               <img
-                src={toggle ? pomodorImg : pomodorImg}
-                onClick={() => setToggle((prev) => !prev)}
+                src={togglePomodoro ? pomodorImg : pomodorImg}
+                onClick={() => setTogglePomodoro((prev) => !prev)}
                 // src={pomodorImg}
                 alt='Pomodoro Productivity Timer'
                 className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
               />
             </div>
-            {/* Stop Pomodoro Description on:hover window */}
+            {/* Stop Pomodoro Description on:click window */}
 
             <div className={`my-8 flex flex-col`}>
               <span className={`font-roboto text-blueDianne font-base text-sm`}>
@@ -127,17 +134,65 @@ const Projects = () => {
                 |
               </h4>
               <h4 className='font-roboto text-blueDianne font-medium text-lg'>
-                Custom Invoice Generator
+                Custom Invoice Creator
               </h4>
             </div>
 
             {/* Start Invoice Description on:hover window */}
-            <img
+            {/* <img
               src={invoiceImg}
               alt='Custom Invoice Generator'
-              className=' mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:-translate-y-2 transition duration-500 cursor-pointer'
-            />
-            {/* Stop Invoice Description on:hover window */}
+              className=' mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+            /> */}
+
+            {/* Start Invoice Description on:click window */}
+            <div className='relative'>
+              <div>
+                <GiClick
+                  color='#f4f1de'
+                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                />
+              </div>
+              {/* Toggles the Close button for the hidden description window   */}
+              <div
+                className={`${toggleInvoice ? "border-box fadeIn" : "fadeOut"} 
+              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 sm:p-4 rounded-md z-[99]`}
+              >
+                <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
+                  <h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>
+                    Invoice Creator
+                  </h4>
+                  <img
+                    className={`w-[20px] h-[20px] ml-3 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
+                    src={closeIcon}
+                    alt='Close Description'
+                    onClick={() => setToggleInvoice((prev) => !prev)}
+                  />
+                </div>
+                <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  I have built this app as a Front End Mentor challenge and to
+                  also help me stay productive and not burn out, as it is easy
+                  to get in the creative zone and forget about the needs of the
+                  body while coding.
+                </p>
+                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  I felt that taking on a challenging project would help me
+                  advance faster with the JavaScript and CSS concepts. One of
+                  the challenges that I had to overcome is to create an accurate
+                  timer that relies on the date.getTime versus using the
+                  setInterval or setTimeout methods, as the later methods can go
+                  out of sync and create an inacurate timer.
+                </p>
+              </div>
+              <img
+                src={toggleInvoice ? invoiceImg : invoiceImg}
+                onClick={() => setToggleInvoice((prev) => !prev)}
+                // src={invoiceImg}
+                alt='Invoice Creator'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+              />
+            </div>
+            {/* Stop Invoice Description on:click window */}
 
             <div className={`my-8 flex flex-col`}>
               <span className={`font-roboto text-blueDianne text-sm`}>
@@ -184,11 +239,52 @@ const Projects = () => {
               </h4>
             </div>
 
-            <img
+            {/* <img
               src={passwordImg}
               alt='Custom Invoice Generator'
               className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:scale-125 transition duration-500 cursor-pointer'
-            />
+            /> */}
+
+            {/* Start Password Description on:click window */}
+            <div className='relative'>
+              <div>
+                <GiClick
+                  color='#f4f1de'
+                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                />
+              </div>
+              {/* Toggles the Close button for the hidden description window   */}
+              <div
+                className={`${togglePassword ? "border-box fadeIn" : "fadeOut"} 
+              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 sm:p-4 rounded-md z-[99]`}
+              >
+                <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
+                  <h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>
+                    Password Generator
+                  </h4>
+                  <img
+                    className={`w-[20px] h-[20px] ml-3 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
+                    src={closeIcon}
+                    alt='Close Description'
+                    onClick={() => setTogglePassword((prev) => !prev)}
+                  />
+                </div>
+                <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  This one is a simple project to generate a number of random
+                  passwords and being able to have it saved as a text file to
+                  your downloads folder after clicking on the chosen password
+                  button.
+                </p>
+              </div>
+              <img
+                src={togglePassword ? passwordImg : passwordImg}
+                onClick={() => setTogglePassword((prev) => !prev)}
+                // src={invoiceImg}
+                alt='Pomodoro Productivity Timer'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+              />
+            </div>
+            {/* Stop Password Description on:click window */}
 
             <div className={`my-8 flex flex-col`}>
               <span className={`font-roboto text-blueDianne text-sm`}>
@@ -240,11 +336,59 @@ const Projects = () => {
               </h4>
             </div>
 
-            <img
+            {/* <img
               src={luxAcresImg}
               alt='Real Estate Site Prototype'
               className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:-translate-y-2 transition duration-500 cursor-pointer'
-            />
+            /> */}
+
+            {/* Start LuxAcres Description on:click window */}
+            <div className='relative'>
+              <div>
+                <GiClick
+                  color='#f4f1de'
+                  className={`absolute top-[4rem] sm:top-24 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                />
+              </div>
+              {/* Toggles the Close button for the hidden description window   */}
+              <div
+                className={`${toggleLuxAcres ? "border-box fadeIn" : "fadeOut"} 
+              absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 sm:p-4 rounded-md z-[99]`}
+              >
+                <div className='flex flex-1 justify-between items-center right-6 z-[200] '>
+                  <h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>
+                    LuxAcres Real Estate Site Prototype
+                  </h4>
+                  <img
+                    className={`w-[20px] h-[20px] ml-3 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
+                    src={closeIcon}
+                    alt='Close Description'
+                    onClick={() => setToggleLuxAcres((prev) => !prev)}
+                  />
+                </div>
+                <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  I have built this app as a Front End Mentor challenge and to
+                  also help me stay productive and not burn out, as it is easy
+                  to get in the creative zone and forget about the needs of the
+                  body while coding.
+                </p>
+                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  I felt that taking on a challenging project would help me
+                  advance faster with the JavaScript and CSS concepts. One of
+                  the challenges that I had to overcome is to create an accurate
+                  timer that relies on the date.getTime versus using the
+                  setInterval or setTimeout methods, as the later methods can go
+                  out of sync and create an inacurate timer.
+                </p>
+              </div>
+              <img
+                src={toggleLuxAcres ? luxAcresImg : luxAcresImg}
+                onClick={() => setToggleLuxAcres((prev) => !prev)}
+                alt='LuxAcres Real Estate Site Prototype'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+              />
+            </div>
+            {/* Stop LuxAcres Description on:click window */}
 
             <div className={`my-8 flex flex-col`}>
               <span className={`font-roboto text-blueDianne text-sm`}>
@@ -253,8 +397,8 @@ const Projects = () => {
               {/* Start Github and Open-Tab Icons */}
               <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
                 <a
-                  href='https://github.com/ar78studio/PasswordGen'
-                  alt='Password Generator - GitHub - AR78.studio'
+                  href='https://github.com/ar78studio/LuxAcres'
+                  alt='LuxAcres Real Estate Site Prototype - GitHub - AR78.studio'
                 >
                   <div>
                     <GithubIcon
@@ -262,10 +406,7 @@ const Projects = () => {
                     />
                   </div>
                 </a>
-                <a
-                  href='https://twitter.com/GeochiNova'
-                  alt='Open Project in a New Tab'
-                >
+                <a href='https://twitter.com/GeochiNova' alt='My Twitter Page'>
                   <div>
                     <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange' />
                   </div>

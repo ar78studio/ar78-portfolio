@@ -44,6 +44,14 @@ p {
   stroke: #233D4D;
 }
 
+.svgOrange {
+  stroke: #FE5F55;
+}
+
+.svgBeige {
+  stroke: #f4f1de;
+}
+
 .stroke-one-point-five {
   stroke-width: 1.5;
 }
@@ -62,7 +70,8 @@ p {
 }
 
 .projectBgWhite {
-  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: rgba(244, 241, 222, 0.8);
   backdrop-filter: blur(5px);
 }
 
@@ -74,19 +83,19 @@ p {
 .menuSlideIn {
   transform: translateX(100%);
   /* transition: ease-in-out 600ms; */
-  transition: 600ms all ease-in-out;
-  -webkit-transition: 600ms all ease-in-out;
-	-moz-transition: 600ms all ease-in-out;
-	-o-transition: 600ms all ease-in-out;
+  transition: 400ms all ease-in-out;
+  -webkit-transition: 400ms all ease-in-out;
+	-moz-transition: 400ms all ease-in-out;
+	-o-transition: 400ms all ease-in-out;
 }
 
 .menuSlideOut {
   transform: translateX((-100%));
   /* transition: ease-in-out 600ms; */
-  transition: 600ms all ease-in-out;
-  -webkit-transition: 600ms all ease-in-out;
-	-moz-transition: 600ms all ease-in-out;
-	-o-transition: 600ms all ease-in-out;
+  transition: 400ms all ease-in-out;
+  -webkit-transition: 400ms all ease-in-out;
+	-moz-transition: 400ms all ease-in-out;
+	-o-transition: 400ms all ease-in-out;
 
 }
 
