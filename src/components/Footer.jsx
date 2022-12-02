@@ -7,8 +7,8 @@ const Footer = () => (
   <section className={`py-2`}>
     <div className='flex justify-center m-auto'>
       <h4 className={`text-[0.6rem] sm:text-base font-bold text-blueDianne`}>
-        Designed & Built in React.js by Artem: -{" "}
-        <mark className='markOrange'> AR78.STUDIO</mark>
+        Designed & Built with React.js and Tailwind CSS by Artem: -{" "}
+        <mark className='markOrange'> ar78.studio</mark>
       </h4>
     </div>
 

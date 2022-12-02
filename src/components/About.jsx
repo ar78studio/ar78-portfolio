@@ -102,7 +102,7 @@ const About = () => (
         <div className='flex flex-row sm:place-self-center '>
           <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
             <div>
-              <GithubIcon className='svgGreen svgToOrange mr-10' />
+              <GithubIcon className='svgGreen svgToOrange mr-10 hover:-translate-y-1  transition duration-300' />
             </div>
           </a>
 
@@ -111,7 +111,7 @@ const About = () => (
             alt='Twiter - Artem: of the family Repin-Muhin'
           >
             <div>
-              <TwitterIcon className='svgGreen svgToOrange' />
+              <TwitterIcon className='svgGreen svgToOrange hover:-translate-y-1  transition duration-300' />
             </div>
           </a>
         </div>

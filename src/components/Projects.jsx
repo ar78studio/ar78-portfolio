@@ -3,7 +3,6 @@ import { useState } from "react";
 import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as OpenTabIcon } from "../assets/arrowOpenWindow.svg";
-import { ReactComponent as ClickHere } from "../assets/clickHere.svg";
 import { GiClick } from "react-icons/Gi";
 import { invoiceImg, luxAcresImg, passwordImg, pomodorImg } from "../assets";
 import { closeIcon } from "../assets/index.js";
@@ -49,7 +48,7 @@ const Projects = () => {
               <div>
                 <GiClick
                   color='#A3CCAB'
-                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse z-[80]`}
                 />
               </div>
               {/* Toggles the Close button for the hidden description window   */}
@@ -86,12 +85,12 @@ const Projects = () => {
                 </p>
               </div>
               <img
-                src={togglePomodoro ? pomodorImg : pomodorImg}
+                src={pomodorImg}
                 onClick={() => setTogglePomodoro((prev) => !prev)}
-                // src={pomodorImg}
                 alt='Pomodoro Productivity Timer'
-                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer hover:scale-[1.01] transition duration-500'
               />
+              {/* <span class='absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-20 transition duration-300 ease-in-out bg-white cursor-pointer rounded-md'></span> */}
             </div>
             {/* Stop Pomodoro Description on:click window */}
 
@@ -106,7 +105,9 @@ const Projects = () => {
                   alt='GitHub - AR78.studio'
                 >
                   <div>
-                    <GithubIcon className={`svgBlue svgToOrange mr-6`} />
+                    <GithubIcon
+                      className={`svgBlue svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
+                    />
                   </div>
                 </a>
                 <a
@@ -114,7 +115,7 @@ const Projects = () => {
                   alt='Open Project in a New Tab'
                 >
                   <div>
-                    <OpenTabIcon className='svgBlue svgToOrange' />
+                    <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
                   </div>
                 </a>
               </div>
@@ -150,7 +151,7 @@ const Projects = () => {
               <div>
                 <GiClick
                   color='#f4f1de'
-                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse z-[80]`}
                 />
               </div>
               {/* Toggles the Close button for the hidden description window   */}
@@ -185,11 +186,11 @@ const Projects = () => {
                 </p>
               </div>
               <img
-                src={toggleInvoice ? invoiceImg : invoiceImg}
+                src={invoiceImg}
                 onClick={() => setToggleInvoice((prev) => !prev)}
                 // src={invoiceImg}
                 alt='Invoice Creator'
-                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer hover:scale-[1.01] transition duration-500'
               />
             </div>
             {/* Stop Invoice Description on:click window */}
@@ -206,7 +207,7 @@ const Projects = () => {
                 >
                   <div>
                     <GithubIcon
-                      className={`svgBlue stroke-one-point-five svgToOrange mr-6`}
+                      className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
                     />
                   </div>
                 </a>
@@ -215,7 +216,7 @@ const Projects = () => {
                   alt='Open Project in a New Tab'
                 >
                   <div>
-                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange' />
+                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange hover:-translate-y-1  transition duration-300' />
                   </div>
                 </a>
               </div>
@@ -250,7 +251,7 @@ const Projects = () => {
               <div>
                 <GiClick
                   color='#f4f1de'
-                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                  className={`absolute top-10 sm:top-14 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse z-[80]`}
                 />
               </div>
               {/* Toggles the Close button for the hidden description window   */}
@@ -277,11 +278,11 @@ const Projects = () => {
                 </p>
               </div>
               <img
-                src={togglePassword ? passwordImg : passwordImg}
+                src={passwordImg}
                 onClick={() => setTogglePassword((prev) => !prev)}
                 // src={invoiceImg}
                 alt='Pomodoro Productivity Timer'
-                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer hover:scale-[1.01] transition duration-500'
               />
             </div>
             {/* Stop Password Description on:click window */}
@@ -298,7 +299,7 @@ const Projects = () => {
                 >
                   <div>
                     <GithubIcon
-                      className={`svgBlue stroke-one-point-five svgToOrange mr-6`}
+                      className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
                     />
                   </div>
                 </a>
@@ -307,7 +308,7 @@ const Projects = () => {
                   alt='Open Project in a New Tab'
                 >
                   <div>
-                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange' />
+                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange hover:-translate-y-1  transition duration-300' />
                   </div>
                 </a>
               </div>
@@ -347,7 +348,7 @@ const Projects = () => {
               <div>
                 <GiClick
                   color='#f4f1de'
-                  className={`absolute top-[4rem] sm:top-24 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse `}
+                  className={`absolute top-[4rem] sm:top-24 right-5 svgGreen h-[1.4rem] w-[1.4rem] sm:h-[2.5rem] sm:w-[2.5rem] animate-pulse z-[80]`}
                 />
               </div>
               {/* Toggles the Close button for the hidden description window   */}
@@ -382,10 +383,10 @@ const Projects = () => {
                 </p>
               </div>
               <img
-                src={toggleLuxAcres ? luxAcresImg : luxAcresImg}
+                src={luxAcresImg}
                 onClick={() => setToggleLuxAcres((prev) => !prev)}
                 alt='LuxAcres Real Estate Site Prototype'
-                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer'
+                className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md cursor-pointer hover:scale-[1.01] transition duration-500'
               />
             </div>
             {/* Stop LuxAcres Description on:click window */}
@@ -402,13 +403,13 @@ const Projects = () => {
                 >
                   <div>
                     <GithubIcon
-                      className={`svgBlue stroke-one-point-five svgToOrange mr-6`}
+                      className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
                     />
                   </div>
                 </a>
                 <a href='https://twitter.com/GeochiNova' alt='My Twitter Page'>
                   <div>
-                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange' />
+                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange hover:-translate-y-1  transition duration-300' />
                   </div>
                 </a>
               </div>
