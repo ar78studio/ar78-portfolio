@@ -70,18 +70,21 @@ const Projects = () => {
                   />
                 </div>
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  This app was coded as a Front End Mentor challenge and also to
-                  help me stay productive and not burn out, as it is easy to get
-                  in the creative zone and forget about the needs of the body
-                  while coding.
-                </p>
-                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I also felt that taking on a challenging project would help me
-                  advance faster with the JavaScript and CSS concepts. One of
+                  This app is an advanced Front End Mentor challenge, which I
+                  took on to test my concept of relativity of "beginner" vs
+                  "advanced" in my preception of a beginner developer. One of
                   the challenges that I had to overcome was to create an
                   accurate timer that relies on the date.getTime versus using
                   the setInterval or setTimeout methods, as the later methods
-                  can go out of sync and create an inacurate timer.
+                  can go out of sync and create an inacurate timer. As well as
+                  syncing the CSS styled progress bar to the elapsed time.
+                </p>
+                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  Besides finding this app useful in staying productive and not
+                  burning out, as it is easy to get in the creative zone and
+                  forget about the needs of the body while coding, I have also
+                  came to the conclusion that "advanced" is only a name of the
+                  mountain until we begin to climb it.
                 </p>
               </div>
               <img
@@ -171,18 +174,10 @@ const Projects = () => {
                   />
                 </div>
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I have built this app as a Front End Mentor challenge and to
-                  also help me stay productive and not burn out, as it is easy
-                  to get in the creative zone and forget about the needs of the
-                  body while coding.
-                </p>
-                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I felt that taking on a challenging project would help me
-                  advance faster with the JavaScript and CSS concepts. One of
-                  the challenges that I had to overcome is to create an accurate
-                  timer that relies on the date.getTime versus using the
-                  setInterval or setTimeout methods, as the later methods can go
-                  out of sync and create an inacurate timer.
+                  This app allows you to create an invoice and email it to a
+                  client. It uses local-storage methods to keep the data you
+                  have entered until cleared the form. Built with HTML, CSS and
+                  JavaScript
                 </p>
               </div>
               <img
@@ -368,18 +363,30 @@ const Projects = () => {
                   />
                 </div>
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I have built this app as a Front End Mentor challenge and to
-                  also help me stay productive and not burn out, as it is easy
-                  to get in the creative zone and forget about the needs of the
-                  body while coding.
+                  LuxAcres is a fictional website which I designed and created a
+                  mock up of, for the
+                  <a
+                    className='hoverOrange underline'
+                    href='https://www.ultrait.net/'
+                  >
+                    {" "}
+                    UltraIT.net,{" "}
+                  </a>{" "}
+                  a small company whom I held an internship with. The goal was
+                  to demonstrate my knowledge of layout and CSS as well as
+                  ability to use JavaScript for Dynamic Components.
                 </p>
                 <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-                  I felt that taking on a challenging project would help me
-                  advance faster with the JavaScript and CSS concepts. One of
-                  the challenges that I had to overcome is to create an accurate
-                  timer that relies on the date.getTime versus using the
-                  setInterval or setTimeout methods, as the later methods can go
-                  out of sync and create an inacurate timer.
+                  The company was looking to hire a developer right before the
+                  Pandemic fiasco, to work with Front-End and some Back-End in
+                  C# and Asp.net environment. Thus the internship that I held
+                  was going to transition into this position, but due to the
+                  lockdowns this has not played out.
+                </p>
+                <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
+                  I enjoyed very much working on this project, as it provided an
+                  opportunity to direct myself from the initial concept to
+                  design and production.
                 </p>
               </div>
               <img
@@ -393,7 +400,7 @@ const Projects = () => {
 
             <div className={`my-8 flex flex-col`}>
               <span className={`font-roboto text-blueDianne text-sm`}>
-                HTML, CSS, JavaScript
+                HTML, CSS, JavaScript, Adobe XD, Photoshop
               </span>
               {/* Start Github and Open-Tab Icons */}
               <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>

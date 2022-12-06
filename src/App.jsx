@@ -36,7 +36,7 @@ const App = () => (
 
     {/* Start of About Section */}
     <div className='bg-blueDianne'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`  ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
         </div>
@@ -46,7 +46,7 @@ const App = () => (
 
     {/* Start of Projects Section */}
     <div className='bg-springGreen'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`  ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Projects />
         </div>
@@ -66,7 +66,7 @@ const App = () => (
 
     {/* Start of Contact Section */}
     <div className='bg-blueDianne'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`  ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Contact />
         </div>
@@ -76,7 +76,7 @@ const App = () => (
 
     {/* Start of Footer Section */}
     <div className='bg-springGreen'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`  ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

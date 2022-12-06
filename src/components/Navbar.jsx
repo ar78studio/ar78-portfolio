@@ -10,6 +10,9 @@ const Navbar = () => {
   // float nav menu on scroll up and down with shadow
   const [navbar, setNavbar] = useState(false);
 
+  // Close mobile menu on link click
+  const [linkClick, setLinkClick] = useState(false);
+
   const currentScroll = window.scrollY;
   console.log(currentScroll);
 
@@ -22,6 +25,8 @@ const Navbar = () => {
   };
 
   window.addEventListener("scroll", floatNavbar);
+
+  const closeMobileMenu = () => setLinkClick(false);
 
   return (
     <nav
@@ -40,7 +45,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-roboto font-medium cursor-pointer mr-6 text-[0.8rem] md:text-[1rem] 
+            className={` font-roboto font-medium cursor-pointer mr-6 text-[0.8rem] md:text-[1rem] 
             // Next line of code gives margin right to all but the last nav link. Nav links are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}
             `}
@@ -83,19 +88,17 @@ const Navbar = () => {
         `}
       >
         {/* START BURGER MENU NAV LINKS */}
-        <ul className='list-none flex flex-col cursor-pointer justify-start mt-[5rem] items-center leading-10 flex-1'>
+        <ul className=' list-none flex flex-col cursor-pointer justify-start mt-[5rem] items-center leading-10 flex-1'>
           {navLinks.map((nav, index) => (
             <li
+              onClick={closeMobileMenu}
               key={nav.id}
               className={`font-roboto font-normal text-[16px] 
             // Next line of code gives margin right to all but the last nav link. Nav link are imported from constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mb-4"}
             text-sunsetOrange font-bold hover:text-springGreen`}
             >
-              <a href={`#${nav.id}`}>
-                {/* {nav.title} */}
-                {nav.content}
-              </a>
+              <a href={`#${nav.id}`}>{nav.content}</a>
             </li>
           ))}
         </ul>

@@ -42,14 +42,17 @@ const About = () => (
           focusing on since the year 2020.
         </p>
         <p>
-          For most of my professional career I have crafted functional art out
-          of wood and metal, while also guiding, managing and overseeing
-          creative talent working with me. While learning and "playing" with
-          HTML, CSS, and JavaScript throughout my life in my spare time, I
-          realised that <mark className='markOrange'>web development </mark> has
-          grown into a <mark className='markOrange'>passion</mark> to pursue, as
-          the digital playground provides an enormous pool of inspiration and
-          possibilities to create useful and world-changing applications.
+          For most of my professional career I have crafted functional art and
+          furniture for high-end clients out of wood and metal, while also
+          guiding, managing and overseeing creative talent working with me.
+          Meanwhile, while learning and "playing" with HTML, CSS, and later with
+          JavaScript throughout my life in my spare time, I realised that{" "}
+          <mark className='markOrange'>web development </mark> has grown into a{" "}
+          <mark className='markOrange'>passion</mark> to pursue, as the digital
+          playground provides an enormous pool of inspiration and possibilities
+          to create useful and world-changing applications. And this,
+          ultimately, is what drives me - to contribute to making a world a
+          better place!
         </p>
 
         <p>
@@ -61,14 +64,16 @@ const About = () => (
         </p>
 
         <p>
-          Meanwhile, I have had an experience of holding a short internship at a
+          In the meanwhile, I have had an experience of holding a short
+          internship at a
           <a href='https://www.ultrait.net/'>
             {" "}
             <span className='hoverOrange underline'>
               CRM Software Development Agency
-            </span>
+            </span>{" "}
+            working with HTML, CSS and Basic JavaScript and C#,
           </a>{" "}
-          , and have also built{" "}
+          and as well have also built{" "}
           <mark className='markOrange'>a few projects of my own.</mark>
         </p>
 

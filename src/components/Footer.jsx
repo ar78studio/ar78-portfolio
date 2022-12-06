@@ -6,8 +6,8 @@ import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 const Footer = () => (
   <section className={`py-2`}>
     <div className='flex justify-center m-auto'>
-      <h4 className={`text-[0.6rem] sm:text-base font-bold text-blueDianne`}>
-        Designed & Built with React.js and Tailwind CSS by Artem: -{" "}
+      <h4 className={`text-[0.5rem] sm:text-base font-bold text-blueDianne`}>
+        Designed & Built with React.js and Tailwind CSS by Artem: Repin -{" "}
         <mark className='markOrange'> ar78.studio</mark>
       </h4>
     </div>
