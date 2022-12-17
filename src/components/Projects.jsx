@@ -71,13 +71,13 @@ const Projects = () => {
                 </div>
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
                   This app is an advanced Front End Mentor challenge, which I
-                  took on to test my concept of relativity of "beginner" vs
-                  "advanced" in my preception of a beginner developer. One of
-                  the challenges that I had to overcome was to create an
-                  accurate timer that relies on the date.getTime versus using
-                  the setInterval or setTimeout methods, as the later methods
-                  can go out of sync and create an inacurate timer. As well as
-                  syncing the CSS styled progress bar to the elapsed time.
+                  took on to test my ability to work with "advanced" projects as
+                  a beginner developer. One of the challenges that I had to
+                  overcome was to create an accurate timer that relies on the
+                  date.getTime versus using the setInterval or setTimeout
+                  methods, as the later methods can go out of sync and create an
+                  inacurate timer. As well as syncing the CSS styled progress
+                  bar to the elapsed time.
                 </p>
                 <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
                   Besides finding this app useful in staying productive and not
@@ -118,7 +118,9 @@ const Projects = () => {
                   alt='Open Project in a New Tab'
                 >
                   <div>
-                    <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                    <a href='https://pomodoro.ar78.studio/' target='_blank'>
+                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                    </a>
                   </div>
                 </a>
               </div>
@@ -211,7 +213,9 @@ const Projects = () => {
                   alt='Open Project in a New Tab'
                 >
                   <div>
-                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange hover:-translate-y-1  transition duration-300' />
+                    <a href='https://invoice.ar78.studio/' target='_blank'>
+                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                    </a>
                   </div>
                 </a>
               </div>
@@ -267,7 +271,7 @@ const Projects = () => {
                 </div>
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
                   This one is a simple project to generate a number of random
-                  passwords and being able to have it saved as a text file to
+                  passwords and automatically saving one as a text file into
                   your downloads folder after clicking on the chosen password
                   button.
                 </p>
@@ -303,7 +307,9 @@ const Projects = () => {
                   alt='Open Project in a New Tab'
                 >
                   <div>
-                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange hover:-translate-y-1  transition duration-300' />
+                    <a href='https://password.ar78.studio/' target='_blank'>
+                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                    </a>
                   </div>
                 </a>
               </div>
@@ -416,7 +422,9 @@ const Projects = () => {
                 </a>
                 <a href='https://twitter.com/GeochiNova' alt='My Twitter Page'>
                   <div>
-                    <OpenTabIcon className='svgBlue stroke-one-point-five svgToOrange hover:-translate-y-1  transition duration-300' />
+                    <a href='https://luxacres.ar78.studio/' target='_blank'>
+                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                    </a>
                   </div>
                 </a>
               </div>

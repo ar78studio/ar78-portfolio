@@ -1,7 +1,9 @@
 import React from "react";
 
-const Contact = () => {
-  return <div>Contact</div>;
-};
+const Contact = () => (
+  <section id='contact' className=''>
+    <form action='/contact' method='post'></form>
+  </section>
+);
 
 export default Contact;

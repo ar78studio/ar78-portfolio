@@ -3,7 +3,7 @@ import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 
-import { aboutSection } from "../constants";
+import { Link } from "react-router-dom";
 
 const About = () => (
   <section
@@ -50,9 +50,7 @@ const About = () => (
           <mark className='markOrange'>web development </mark> has grown into a{" "}
           <mark className='markOrange'>passion</mark> to pursue, as the digital
           playground provides an enormous pool of inspiration and possibilities
-          to create useful and world-changing applications. And this,
-          ultimately, is what drives me - to contribute to making a world a
-          better place!
+          to create useful and world-changing applications.
         </p>
 
         <p>
@@ -71,9 +69,9 @@ const About = () => (
             <span className='hoverOrange underline'>
               CRM Software Development Agency
             </span>{" "}
-            working with HTML, CSS and Basic JavaScript and C#,
+            working with HTML, CSS and Basic JavaScript and C#.
           </a>{" "}
-          and as well have also built{" "}
+          I have also built{" "}
           <mark className='markOrange'>a few projects of my own.</mark>
         </p>
 

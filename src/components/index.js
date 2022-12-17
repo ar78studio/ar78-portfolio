@@ -1,9 +1,9 @@
-import About from "./About";
-import Contact from "./Contact";
-import Experience from "./Experience";
-import Footer from "./Footer";
-import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
+import About from "./About";
 import Projects from "./Projects";
+import Experience from "./Experience";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export { About, Contact, Experience, Footer, Hero, Navbar, Projects };

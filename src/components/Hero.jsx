@@ -29,7 +29,7 @@ const Hero = () => (
           className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[0.75rem] md:text-[1rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
         >
           {
-            "I am a passionate and thirsty Front End Engineer / Developer who appreciates good web design aesthetics and strives to produce clean code. If occasionally stalked by an Impostor Syndrome, I find my safety in consistent learning of new techonologies and libraries and reinforcing the gained knoledge along with perfecting my developer-librarian skills in the Google Library. Currently, I am working on expanding my knowledge base in APIs and React.js"
+            "I am a passionate and thirsty Front End Engineer / Developer who appreciates good web design aesthetics and strives to produce clean code. I am driven with consistent learning of new techonologies and libraries and reinforcing the gained concepts by building projects. Currently, I am working on expanding my knowledge base in APIs and React.js"
           }
         </span>
       </div>
