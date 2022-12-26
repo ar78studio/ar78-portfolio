@@ -29,25 +29,17 @@ const Hero = () => (
           className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[0.75rem] md:text-[1rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
         >
           {
-            "I am a passionate and thirsty Front End Engineer / Developer who appreciates good web design aesthetics and strives to produce clean code. I am driven with consistent learning of new techonologies and libraries and reinforcing the gained concepts by building projects. Currently, I am working on expanding my knowledge base in APIs and React.js"
+            "I am passionate and thirsty Front End Developer who appreciates good web design aesthetics and strives to produce clean code. Currently, I am working on expanding my knowledge base in React.js"
           }
         </span>
       </div>
-      {/* <div className={`flex flex-col z-[1] justify-end pb-0`}>
-        <img
-          src={artemBodyImg}
-          alt='Artem: of the family Repin-Muhin, Front End Developer / Engineer'
-          className='place-self-end h-[15rem] sm:h-[28rem] md:h-[46rem] w-auto bottom-0 pb-0 mb-0 object-cover ml-10'
-        />
-      </div> */}
     </div>
-    {/* <div className={`flex pb-0 w-auto m-auto mb-0 h-fit`}> */}
+
     <img
       src={artemBodyImg}
       alt='Artem: of the family Repin-Muhin, Front End Developer / Engineer'
       className='h-[15rem] sm:h-[28rem] md:h-[46rem] m-auto w-auto pb-0 mb-0 object-cover'
     />
-    {/* </div> */}
 
     {/* To absolutely position the #1 I set the encompassing section class to relative */}
     <div>

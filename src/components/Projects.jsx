@@ -43,6 +43,30 @@ const Projects = () => {
                 Pomodoro Productivity Timer
               </h4>
             </div>
+            {/* Start Github and Open-Tab Icons */}
+            <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
+              <a
+                href='https://github.com/ar78studio/Pomodoro-Productivity-App'
+                alt='GitHub - AR78.studio'
+              >
+                <div>
+                  <GithubIcon
+                    className={`svgBlue svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
+                  />
+                </div>
+              </a>
+              <a
+                href='https://twitter.com/GeochiNova'
+                alt='Open Project in a New Tab'
+              >
+                <div>
+                  <a href='https://pomodoro.ar78.studio/' target='_blank'>
+                    <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                  </a>
+                </div>
+              </a>
+            </div>
+            {/* Stop Github and Open-Tab Icons */}
             {/* Start Pomodoro Description on:click window */}
             <div className='relative'>
               <div>
@@ -72,19 +96,18 @@ const Projects = () => {
                 <p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
                   This app is an advanced Front End Mentor challenge, which I
                   took on to test my ability to work with "advanced" projects as
-                  a beginner developer. One of the challenges that I had to
-                  overcome was to create an accurate timer that relies on the
-                  date.getTime versus using the setInterval or setTimeout
-                  methods, as the later methods can go out of sync and create an
-                  inacurate timer. As well as syncing the CSS styled progress
-                  bar to the elapsed time.
+                  a beginner developer. The user is able to set a Pomodoro timer
+                  and short & long break timers. Customize how long each timer
+                  runs for. See a circular progress bar that updates every
+                  minute. Customize the appearance of the app with the ability
+                  to set preferences for colors and fonts.
                 </p>
                 <p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
                   Besides finding this app useful in staying productive and not
                   burning out, as it is easy to get in the creative zone and
                   forget about the needs of the body while coding, I have also
-                  came to the conclusion that "advanced" is only a name of the
-                  mountain until we begin to climb it.
+                  come to the conclusion that "advanced" is only a name of the
+                  mountain until one begins to climb it.
                 </p>
               </div>
               <img
@@ -101,30 +124,6 @@ const Projects = () => {
               <span className={`font-roboto text-blueDianne font-base text-sm`}>
                 HTML, CSS, JavaScript
               </span>
-              {/* Start Github and Open-Tab Icons */}
-              <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
-                <a
-                  href='https://github.com/ar78studio/Pomodoro-Productivity-App'
-                  alt='GitHub - AR78.studio'
-                >
-                  <div>
-                    <GithubIcon
-                      className={`svgBlue svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
-                    />
-                  </div>
-                </a>
-                <a
-                  href='https://twitter.com/GeochiNova'
-                  alt='Open Project in a New Tab'
-                >
-                  <div>
-                    <a href='https://pomodoro.ar78.studio/' target='_blank'>
-                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
-                    </a>
-                  </div>
-                </a>
-              </div>
-              {/* Stop Github and Open-Tab Icons */}
             </div>
             {/* End Pomodoro */}
           </div>
@@ -143,6 +142,31 @@ const Projects = () => {
                 Custom Invoice Creator
               </h4>
             </div>
+
+            {/* Start Github and Open-Tab Icons */}
+            <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
+              <a
+                href='https://github.com/ar78studio/invoice-creator'
+                alt='GitHub - AR78.studio'
+              >
+                <div>
+                  <GithubIcon
+                    className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
+                  />
+                </div>
+              </a>
+              <a
+                href='https://twitter.com/GeochiNova'
+                alt='Open Project in a New Tab'
+              >
+                <div>
+                  <a href='https://invoice.ar78.studio/' target='_blank'>
+                    <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                  </a>
+                </div>
+              </a>
+            </div>
+            {/* Stop Github and Open-Tab Icons */}
 
             {/* Start Invoice Description on:hover window */}
             {/* <img
@@ -196,30 +220,6 @@ const Projects = () => {
               <span className={`font-roboto text-blueDianne text-sm`}>
                 HTML, CSS, JavaScript
               </span>
-              {/* Start Github and Open-Tab Icons */}
-              <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
-                <a
-                  href='https://github.com/ar78studio/invoice-creator'
-                  alt='GitHub - AR78.studio'
-                >
-                  <div>
-                    <GithubIcon
-                      className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
-                    />
-                  </div>
-                </a>
-                <a
-                  href='https://twitter.com/GeochiNova'
-                  alt='Open Project in a New Tab'
-                >
-                  <div>
-                    <a href='https://invoice.ar78.studio/' target='_blank'>
-                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
-                    </a>
-                  </div>
-                </a>
-              </div>
-              {/* Stop Github and Open-Tab Icons */}
             </div>
             {/* End Invoice */}
           </div>
@@ -238,6 +238,31 @@ const Projects = () => {
                 Password Generator
               </h4>
             </div>
+
+            {/* Start Github and Open-Tab Icons */}
+            <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
+              <a
+                href='https://github.com/ar78studio/PasswordGen'
+                alt='Password Generator - GitHub - AR78.studio'
+              >
+                <div>
+                  <GithubIcon
+                    className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
+                  />
+                </div>
+              </a>
+              <a
+                href='https://twitter.com/GeochiNova'
+                alt='Open Project in a New Tab'
+              >
+                <div>
+                  <a href='https://password.ar78.studio/' target='_blank'>
+                    <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                  </a>
+                </div>
+              </a>
+            </div>
+            {/* Stop Github and Open-Tab Icons */}
 
             {/* <img
               src={passwordImg}
@@ -290,30 +315,6 @@ const Projects = () => {
               <span className={`font-roboto text-blueDianne text-sm`}>
                 HTML, CSS, JavaScript
               </span>
-              {/* Start Github and Open-Tab Icons */}
-              <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
-                <a
-                  href='https://github.com/ar78studio/PasswordGen'
-                  alt='Password Generator - GitHub - AR78.studio'
-                >
-                  <div>
-                    <GithubIcon
-                      className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
-                    />
-                  </div>
-                </a>
-                <a
-                  href='https://twitter.com/GeochiNova'
-                  alt='Open Project in a New Tab'
-                >
-                  <div>
-                    <a href='https://password.ar78.studio/' target='_blank'>
-                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
-                    </a>
-                  </div>
-                </a>
-              </div>
-              {/* Stop Github and Open-Tab Icons */}
             </div>
             {/* End Password Generator */}
           </div>
@@ -337,6 +338,28 @@ const Projects = () => {
                 Real Estate Site Prototype
               </h4>
             </div>
+
+            {/* Start Github and Open-Tab Icons */}
+            <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
+              <a
+                href='https://github.com/ar78studio/LuxAcres'
+                alt='LuxAcres Real Estate Site Prototype - GitHub - AR78.studio'
+              >
+                <div>
+                  <GithubIcon
+                    className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
+                  />
+                </div>
+              </a>
+              <a href='https://twitter.com/GeochiNova' alt='My Twitter Page'>
+                <div>
+                  <a href='https://luxacres.ar78.studio/' target='_blank'>
+                    <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
+                  </a>
+                </div>
+              </a>
+            </div>
+            {/* Stop Github and Open-Tab Icons */}
 
             {/* <img
               src={luxAcresImg}
@@ -408,27 +431,6 @@ const Projects = () => {
               <span className={`font-roboto text-blueDianne text-sm`}>
                 HTML, CSS, JavaScript, Adobe XD, Photoshop
               </span>
-              {/* Start Github and Open-Tab Icons */}
-              <div className='flex place-self-start my-4 ss:place-self-end sm:place-self-start sm:flex-row '>
-                <a
-                  href='https://github.com/ar78studio/LuxAcres'
-                  alt='LuxAcres Real Estate Site Prototype - GitHub - AR78.studio'
-                >
-                  <div>
-                    <GithubIcon
-                      className={`svgBlue stroke-one-point-five svgToOrange mr-6 hover:-translate-y-1  transition duration-300`}
-                    />
-                  </div>
-                </a>
-                <a href='https://twitter.com/GeochiNova' alt='My Twitter Page'>
-                  <div>
-                    <a href='https://luxacres.ar78.studio/' target='_blank'>
-                      <OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
-                    </a>
-                  </div>
-                </a>
-              </div>
-              {/* Stop Github and Open-Tab Icons */}
             </div>
             {/* End Password Generator */}
           </div>
