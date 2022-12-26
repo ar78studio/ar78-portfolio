@@ -20,14 +20,16 @@ const Contact = () => (
       <input
         type='text'
         name='name'
-        className='h-8 bg-sunsetOrange rounded-md form-input border-0'
+        maxLength={20}
+        className='placeholder:text-blueDianne text-blueDianne placeholder:italic outline-none px-4 h-8 bg-sunsetOrange rounded-md form-input border-0'
         placeholder='Full Name'
       />
       <br />
       <input
         type='email'
         name='email'
-        className='text-blueDianne px-4 mt-4 h-8 bg-sunsetOrange rounded-md border-0'
+        maxLength={20}
+        className='placeholder:text-blueDianne text-blueDianne placeholder:italic outline-none px-4 mt-4 h-8 bg-sunsetOrange rounded-md border-0'
         placeholder='E-Mail'
       />
       <br />
@@ -36,7 +38,7 @@ const Contact = () => (
         name='textarea'
         rows={6}
         cols={10}
-        className='mt-8 bg-sunsetOrange rounded-md form-textarea border-0'
+        className='placeholder:text-blueDianne text-blueDianne placeholder:italic outline-none p-4 mt-8 bg-sunsetOrange rounded-md form-textarea border-0'
         placeholder='Your message...'
       />
       <br />
