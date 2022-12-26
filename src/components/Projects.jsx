@@ -47,6 +47,7 @@ const Projects = () => {
             <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
               <a
                 href='https://github.com/ar78studio/Pomodoro-Productivity-App'
+                target='_blank'
                 alt='GitHub - AR78.studio'
               >
                 <div>
@@ -147,6 +148,7 @@ const Projects = () => {
             <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
               <a
                 href='https://github.com/ar78studio/invoice-creator'
+                target='_blank'
                 alt='GitHub - AR78.studio'
               >
                 <div>
@@ -243,6 +245,7 @@ const Projects = () => {
             <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
               <a
                 href='https://github.com/ar78studio/PasswordGen'
+                target='_blank'
                 alt='Password Generator - GitHub - AR78.studio'
               >
                 <div>
@@ -343,6 +346,7 @@ const Projects = () => {
             <div className='flex place-self-end ss:place-self-end sm:place-self-end sm:flex-row '>
               <a
                 href='https://github.com/ar78studio/LuxAcres'
+                target='_blank'
                 alt='LuxAcres Real Estate Site Prototype - GitHub - AR78.studio'
               >
                 <div>
@@ -360,12 +364,6 @@ const Projects = () => {
               </a>
             </div>
             {/* Stop Github and Open-Tab Icons */}
-
-            {/* <img
-              src={luxAcresImg}
-              alt='Real Estate Site Prototype'
-              className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:-translate-y-2 transition duration-500 cursor-pointer'
-            /> */}
 
             {/* Start LuxAcres Description on:click window */}
             <div className='relative'>

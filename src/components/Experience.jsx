@@ -3,7 +3,10 @@ import { useState } from "react";
 import "../index.css";
 
 const Experience = () => (
-  <section id='experience'>
+  <section
+    id='experience'
+    className='flex m-auto xl:max-w-[1280px] relative w-full lg:w-10/12 px-[10%] sm:mt-[6rem] md:mt-[6rem] lg:mt-[7rem] my-20'
+  >
     <div className='flex items-center m-auto xl:max-w-[1280px] relative my-[6rem]'>
       <ul
         className='nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 mr-4'
@@ -124,6 +127,20 @@ const Experience = () => (
           Tab 3 content vertical
         </div>
       </div>
+    </div>
+    {/* To absolutely position the #1 I set the section class above to relative */}
+    <div>
+      <h1
+        className={`text-lightBeige absolute tracking-wider text-4xl top-[109%] left-[45%] sm:top-[113.8%] sm:left-[45%] sm:text-5xl lg:top-[110.8%] lg:left-[45.5%] lg:text-7xl`}
+      >
+        {"#4"}
+      </h1>
+
+      <h1
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[108.9%] left-[44.5%] sm:top-[113.2%] sm:left-[44.7%] sm:text-5xl lg:top-[110.4%] lg:left-[45.3%] lg:text-7xl`}
+      >
+        {"#4"}
+      </h1>
     </div>
   </section>
 );

@@ -34,5 +34,11 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/forms")({
+      strategy: "base",
+      strategy: "class",
+    }),
+  ],
 };

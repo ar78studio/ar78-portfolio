@@ -4,7 +4,7 @@ import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 
 const Footer = () => (
-  <section className={`py-2`}>
+  <section className={`py-4`}>
     <div className='flex justify-center m-auto'>
       <h4 className={`text-[0.5rem] sm:text-base font-bold text-blueDianne`}>
         Designed & Built with React.js and Tailwind CSS by Artem: Repin -{" "}
