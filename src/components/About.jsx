@@ -126,13 +126,13 @@ const About = () => (
     {/* To absolutely position the #1 I set the section class above to relative */}
     <div>
       <h1
-        className={`text-blueDianne absolute tracking-wider text-4xl top-[105%] left-[45%] sm:top-[107%] sm:left-[45%] sm:text-5xl lg:top-[107%] lg:left-[45.5%] lg:text-7xl`}
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[105%] left-[76%] sm:top-[105.5%] sm:left-[75%] sm:text-7xl`}
       >
         {"#2"}
       </h1>
 
       <h1
-        className={`text-springGreen absolute tracking-wider text-4xl top-[104.8%] left-[44.5%] sm:top-[106.7%] sm:left-[44.7%] sm:text-5xl lg:top-[106.5%] lg:left-[45.3%] lg:text-7xl`}
+        className={`text-springGreen absolute tracking-wider text-4xl top-[104.8%] left-[75.5%] sm:top-[105%] sm:left-[74.7%] sm:text-7xl`}
       >
         {"#2"}
       </h1>

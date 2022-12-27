@@ -44,13 +44,13 @@ const Hero = () => (
     {/* To absolutely position the #1 I set the encompassing section class to relative */}
     <div>
       <h1
-        className={`text-sunsetOrange absolute tracking-wider text-4xl top-[96.4%] left-[45.2%] sm:top-[96%] sm:left-[45%] sm:text-5xl lg:top-[95.3%] lg:left-[45.5%] lg:text-7xl`}
+        className={`text-sunsetOrange absolute tracking-wider text-4xl top-[94.5%] left-[55.2%] sm:top-[94%] sm:left-[55%] sm:text-7xl`}
       >
         {"#1"}
       </h1>
 
       <h1
-        className={`text-blueDianne absolute tracking-wider text-4xl top-[96%] left-[44.7%] sm:top-[95.6%] sm:left-[44.7%] sm:text-5xl lg:top-[95%] lg:left-[45.3%] lg:text-7xl`}
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[94%] left-[54.7%] sm:top-[93.6%] sm:left-[54.8%] sm:text-7xl `}
       >
         {"#1"}
       </h1>

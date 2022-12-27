@@ -131,13 +131,13 @@ const Experience = () => (
     {/* To absolutely position the #1 I set the section class above to relative */}
     <div>
       <h1
-        className={`text-lightBeige absolute tracking-wider text-4xl top-[109%] left-[45%] sm:top-[113.8%] sm:left-[45%] sm:text-5xl lg:top-[110.8%] lg:left-[45.5%] lg:text-7xl`}
+        className={`text-lightBeige absolute tracking-wider text-4xl top-[107%] left-[45%] sm:top-[110.5%] sm:left-[75%] sm:text-7xl`}
       >
         {"#4"}
       </h1>
 
       <h1
-        className={`text-blueDianne absolute tracking-wider text-4xl top-[108.9%] left-[44.5%] sm:top-[113.2%] sm:left-[44.7%] sm:text-5xl lg:top-[110.4%] lg:left-[45.3%] lg:text-7xl`}
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[107%] left-[44.5%] sm:top-[110%] sm:left-[74.6%] sm:text-7xl`}
       >
         {"#4"}
       </h1>
