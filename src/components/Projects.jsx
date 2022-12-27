@@ -267,12 +267,6 @@ const Projects = () => {
             </div>
             {/* Stop Github and Open-Tab Icons */}
 
-            {/* <img
-              src={passwordImg}
-              alt='Custom Invoice Generator'
-              className='mt-4 sm:mt-8 object-cover max-w-full sm:max-w-lg shadow-xl rounded-md hover:scale-125 transition duration-500 cursor-pointer'
-            /> */}
-
             {/* Start Password Description on:click window */}
             <div className='relative'>
               <div>

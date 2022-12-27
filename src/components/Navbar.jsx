@@ -15,7 +15,6 @@ const Navbar = () => {
 
   // Floating Navbar
   const currentScroll = window.scrollY;
-  console.log(currentScroll);
 
   const floatNavbar = () => {
     if (currentScroll < window.scrollY) {
