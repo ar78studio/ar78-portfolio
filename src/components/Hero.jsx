@@ -20,16 +20,16 @@ const Hero = () => (
       {/* Start Hero I am passionate Dev */}
       <div className={`flex w-fit mr-4`}>
         <span
-          className={`text-blueDianne font-bold text-xs mr-2 mt-4 sm:text-[12px] md:text-[16px] mx-0 pb-10`}
+          className={`text-blueDianne font-bold text-[0.5rem] mr-2 mt-4 sm:text-[0.8rem] md:text-[1rem] mx-0 pb-6`}
         >
           {" "}
           {">>"}
         </span>
         <span
-          className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[0.75rem] md:text-[1rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
+          className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[1rem] md:text-[1.2rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
         >
           {
-            "I am passionate and thirsty Front End Developer who appreciates good web design aesthetics and strives to produce clean code. Currently, I am working on expanding my knowledge base in React.js"
+            "I'm a passionate and thirsty Front End Developer who appreciates good web design aesthetics and strives to produce clean code. Currently, I am working on expanding my knowledge base in React.js and Next.js"
           }
         </span>
       </div>
@@ -44,13 +44,13 @@ const Hero = () => (
     {/* To absolutely position the #1 I set the encompassing section class to relative */}
     <div>
       <h1
-        className={`text-sunsetOrange absolute tracking-wider text-4xl top-[94.5%] left-[55.2%] sm:top-[94%] sm:left-[55%] sm:text-7xl`}
+        className={`text-sunsetOrange absolute tracking-wider text-4xl top-[94.5%] left-[55.2%] sm:top-[94.5%] sm:left-[55%] lg:top-[96%] sm:text-7xl`}
       >
         {"#1"}
       </h1>
 
       <h1
-        className={`text-blueDianne absolute tracking-wider text-4xl top-[94%] left-[54.7%] sm:top-[93.6%] sm:left-[54.8%] sm:text-7xl `}
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[94%] left-[54.7%] sm:top-[94.1%] sm:left-[54.8%] lg:top-[95.6%] sm:text-7xl `}
       >
         {"#1"}
       </h1>

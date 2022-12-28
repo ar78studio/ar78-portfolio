@@ -37,14 +37,14 @@ const About = () => (
 
       <div>
         <p>
-          Hi there! I am Artem: of the family Repin-Muhin, and building
-          functional and beautiful things for the web is what I have been
-          focusing on since the year 2020.
+          Hi there! <br />
+          <mark className='markOrange animate-pulse'>
+            I'm a self-taught Front End Developer looking to join a remote team.
+          </mark>
         </p>
 
         <p>
-          In the meanwhile, I have had an experience of holding an internship at
-          a small
+          I have had an experience of holding an internship at a small
           <a href='https://www.ultrait.net/'>
             {" "}
             <span className='hoverOrange underline'>
@@ -52,7 +52,7 @@ const About = () => (
             </span>{" "}
             working with HTML, CSS and JavaScript.
           </a>{" "}
-          <br></br>I have also built{" "}
+          <br />I have also built{" "}
           <mark className='markOrange'>a few projects of my own.</mark>
         </p>
         <p>
@@ -67,18 +67,10 @@ const About = () => (
           to create useful and world-changing applications.
         </p>
 
-        <p>
-          Last few years have proven to be pivotal in wanting to dedicate myself
-          fully to growing my skills with a{" "}
-          <mark className='markOrange'>
-            goal of joining a remote team as a Front End Developer.
-          </mark>
-        </p>
-
         <p>I have worked with the following technologies and software:</p>
       </div>
 
-      <div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-14 mb-10 justify-around'>
+      <div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-10 mb-10 justify-around'>
         <ul className='flex flex-col '>
           <li>+ JavaScript (ES6+)</li>
           <li>+ React.js</li>
@@ -98,7 +90,7 @@ const About = () => (
       </div>
 
       {/* Start Line Separator Bottom for smaller devices */}
-      <div className='m-auto lg:mt-[5rem] border-b-[1px] w-[18rem] sm:w-[25rem] md:w-[35rem] lg:w-[45rem] lg:border-b-[1px] md:border-b-[1px] sm:border-b-[1px]  border-springGreen mb-8'></div>
+      <div className='m-auto lg:mt-[3rem] border-b-[1px] w-[18rem] sm:w-[25rem] md:w-[35rem] lg:w-[45rem] lg:border-b-[1px] md:border-b-[1px] sm:border-b-[1px]  border-springGreen mb-8'></div>
 
       {/* Start Github and Twitter Icons */}
       <div className={`flex flex-wrap justify-center mb-10`}>

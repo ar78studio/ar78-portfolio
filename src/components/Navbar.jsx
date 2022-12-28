@@ -10,9 +10,6 @@ const Navbar = () => {
   // float nav menu on scroll up and down with shadow
   const [navbar, setNavbar] = useState(false);
 
-  // Is Mobile menu open
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   // Floating Navbar
   const currentScroll = window.scrollY;
 

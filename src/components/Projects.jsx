@@ -432,13 +432,13 @@ const Projects = () => {
       {/* To absolutely position the #1 I set the section class above to relative */}
       <div>
         <h1
-          className={`text-springGreen absolute tracking-wider text-4xl top-[102.5%] left-[45%] sm:top-[101.9%] sm:left-[15%] sm:text-7xl`}
+          className={`text-springGreen absolute tracking-wider text-4xl top-[103.3%] left-[15%] sm:top-[101.6%] sm:left-[15%] lg:top-[102.7%] sm:text-7xl`}
         >
           {"#3"}
         </h1>
 
         <h1
-          className={`text-lightBeige absolute tracking-wider text-4xl top-[103.2%] left-[44.5%] sm:top-[101.8%] sm:left-[14.7%] sm:text-7xl`}
+          className={`text-lightBeige absolute tracking-wider text-4xl top-[103.2%] left-[14.5%] sm:top-[101.5%] sm:left-[14.7%] lg:top-[102.5%] sm:text-7xl`}
         >
           {"#3"}
         </h1>
