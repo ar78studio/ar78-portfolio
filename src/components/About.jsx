@@ -38,7 +38,7 @@ const About = () => (
       <div>
         <p>
           Hi there! <br />
-          <mark className='markOrange animate-pulse'>
+          <mark className='markOrange'>
             I'm a self-taught Front End Developer looking to join a remote team.
           </mark>
         </p>
