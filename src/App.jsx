@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import styles from "./style";
+import "./index.css";
 
 import {
   Navbar,
@@ -11,80 +13,75 @@ import {
   Footer,
 } from "./components";
 
-const App = () => (
-  // START OF BODY WRAP
-  <div className='w-full overflow-hidden'>
-    {/* Start of Navbar */}
-    {/* <div className='bg-springGreen'> */}
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-    {/* </div> */}
-    {/* End of Navbar */}
+function App() {
+  let [loading, setLoading] = useState(false);
 
-    {/* Start of Hero Section */}
-    <div className='bg-sunsetOrange'>
-      <div className={`${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-    </div>
-    {/* End of Hero Section */}
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
 
-    {/* Start of About Section */}
-    <div className='bg-blueDianne'>
-      <div className={`  ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <About />
+  return (
+    <>
+      {loading ? (
+        <div className='grid h-screen place-items-center'>
+          <ClimbingBoxLoader color={"#233d4d"} loading={loading} size={20} />
         </div>
-      </div>
-    </div>
-    {/* End of About Section */}
-
-    {/* Start of Projects Section */}
-    <div className='bg-springGreen'>
-      <div className={`  ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Projects />
+      ) : (
+        <div className='w-full overflow-hidden'>
+          <div className={`${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Navbar />
+            </div>
+          </div>
+          <div className='bg-sunsetOrange'>
+            <div className={`${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Hero />
+              </div>
+            </div>
+          </div>
+          <div className='bg-blueDianne'>
+            <div className={`  ${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <About />
+              </div>
+            </div>
+          </div>
+          <div className='bg-springGreen'>
+            <div className={`  ${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Projects />
+              </div>
+            </div>
+          </div>
+          <div className='bg-lightBeige'>
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Experience />
+              </div>
+            </div>
+          </div>
+          <div className='bg-blueDianne'>
+            <div className={`  ${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Contact />
+              </div>
+            </div>
+          </div>
+          <div className='bg-springGreen'>
+            <div className={`  ${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Footer />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    {/* End of Projects Section */}
-
-    {/* Start of Experience */}
-    <div className='bg-lightBeige'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Experience />
-        </div>
-      </div>
-    </div>
-    {/* End of Experience */}
-
-    {/* Start of Contact Section */}
-    <div className='bg-blueDianne'>
-      <div className={`  ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Contact />
-        </div>
-      </div>
-    </div>
-    {/* End of Contact Section */}
-
-    {/* Start of Footer Section */}
-    <div className='bg-springGreen'>
-      <div className={`  ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Footer />
-        </div>
-      </div>
-    </div>
-    {/* End of Footer Section */}
-  </div>
-  // END OF BODY WRAP
-);
+      )}
+    </>
+  );
+}
 
 export default App;
