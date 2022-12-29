@@ -1,7 +1,4 @@
 import React from "react";
-import { useForm } from "react-hook-form";
-import axios from "axios";
-import ContactForm from "./ContactForm";
 
 const Contact = () => {
   function Mailto({ email, subject, body, ...props }) {
@@ -34,7 +31,7 @@ const Contact = () => {
       </h5>
 
       <button className='text-blueDianne font-bold place-self-center mt-10  bg-sunsetOrange rounded-md h-10 w-32 hover:bg-springGreen hover:text-sunsetOrange drop-shadow-xl cursor-pointer'>
-        <Mailto email='info@ar78.studio' subject='Hello' body='Hello world!'>
+        <Mailto email='info@ar78.studio' subject='Hello' body='Hi Artem!'>
           Email
         </Mailto>
       </button>

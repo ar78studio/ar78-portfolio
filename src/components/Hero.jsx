@@ -1,4 +1,4 @@
-import styles from "../style";
+import React from "react";
 import { functionImg, artemBodyImg } from "../assets/index.js";
 
 const Hero = () => (
