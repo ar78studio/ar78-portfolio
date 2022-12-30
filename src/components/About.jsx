@@ -37,8 +37,8 @@ const About = () => (
         <p>
           Hi there! <br />
           <mark className='markOrange'>
-            I'm a self-taught Front End Developer looking to contribute to
-            exciting projects in a remote team setting.
+            I'm a self-taught Front End Developer currently looking to
+            contribute to exciting projects in a remote team setting.
           </mark>
         </p>
 
