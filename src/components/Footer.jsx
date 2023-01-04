@@ -7,7 +7,7 @@ const Footer = () => (
   <section className={`pt-4`}>
     <div className='flex justify-center m-auto'>
       <h4 className={`text-[0.6rem] sm:text-sm font-bold text-blueDianne`}>
-        Designed & Built with React.js and Tailwind CSS
+        Designed in Adobe Xd & Built with React.js and Tailwind CSS
       </h4>
     </div>
 

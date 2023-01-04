@@ -19,12 +19,6 @@ const SocialLinks = () => {
           className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
         />
       </a>
-      <a href='https://twitter.com'>
-        <TwitterIcon
-          size={32}
-          className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
-        />
-      </a>
     </div>
   );
 };
