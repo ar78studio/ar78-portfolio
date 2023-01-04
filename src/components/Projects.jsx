@@ -6,11 +6,6 @@ import Password from "./projects/Password";
 import LuxAcres from "./projects/LuxAcres";
 
 const Projects = () => {
-  // const [togglePomodoro, setTogglePomodoro] = useState(false);
-  // const [toggleInvoice, setToggleInvoice] = useState(false);
-  // const [togglePassword, setTogglePassword] = useState(false);
-  // const [toggleLuxAcres, setToggleLuxAcres] = useState(false);
-
   return (
     <section
       id='projects'

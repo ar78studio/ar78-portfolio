@@ -10,9 +10,11 @@ const Hero = () => (
       <p className='text-blueDianne text-xs sm:text-lg md:text-2xl lg:text-2xl font-bold'>
         {"Hi, and welcome to the web portal"}
       </p>
+
       <h1 className='text-blueDianne w-max font-black font-montserrat text-[1.5rem] sm:text-[3.1rem] md:text-[4.8rem]'>
         {"By: Artem: Repin"}
       </h1>
+
       {/* Start Function */}
       <div className='hidden sm:block w-[100%] sm:w-[90%] justify-center'>
         <img src={functionImg} alt='Javascript Function' className='w-full' />
@@ -29,7 +31,7 @@ const Hero = () => (
           className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[1rem] md:text-[1.2rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
         >
           {
-            "I'm a passionate and thirsty Front End Developer who appreciates good web design aesthetics and strives to produce clean code. Currently, I am working on expanding my knowledge base in React.js and Next.js"
+            "I'm a passionate and thirsty Front End Developer who strives to produce clean code and appreciates good web design aesthetics. Currently, I am working on expanding my knowledge base in React.js and Next.js"
           }
         </span>
       </div>
@@ -44,13 +46,13 @@ const Hero = () => (
     {/* To absolutely position the #1 I set the encompassing section class to relative */}
     <div>
       <h1
-        className={`text-sunsetOrange absolute tracking-wider text-4xl top-[94.5%] left-[55.2%] sm:top-[94.5%] sm:left-[55%] lg:top-[96%] sm:text-7xl`}
+        className={`text-sunsetOrange absolute tracking-wider text-4xl top-[94.5%] left-[15.2%] sm:top-[94.5%] sm:left-[15%] lg:top-[96%] sm:text-7xl`}
       >
         {"#1"}
       </h1>
 
       <h1
-        className={`text-blueDianne absolute tracking-wider text-4xl top-[94%] left-[54.7%] sm:top-[94.1%] sm:left-[54.8%] lg:top-[95.6%] sm:text-7xl `}
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[94%] left-[14.7%] sm:top-[94.1%] sm:left-[14.8%] lg:top-[95.6%] sm:text-7xl `}
       >
         {"#1"}
       </h1>

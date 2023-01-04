@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import styles from "./style";
 import "./index.css";
+import { Fade } from "react-awesome-reveal";
+import SocialLinks from "./components/SocialLinks";
 
 import {
   Navbar,
@@ -14,14 +16,21 @@ import {
 } from "./components";
 
 function App() {
-  let [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [siteLoaded, setSiteLoaded] = useState([]);
 
   useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 5000);
-  }, []);
+    localStorage.setItem("siteLoaded", JSON.stringify(siteLoaded));
+    const loadedSite = JSON.parse(localStorage.getItem("siteLoaded"));
+    if (loadedSite === "true") {
+      setLoading(true);
+      setSiteLoaded(siteLoaded);
+    } else {
+      setTimeout(() => {
+        setLoading(false);
+      }, 5000);
+    }
+  }, [siteLoaded]);
 
   return (
     <>
@@ -39,7 +48,9 @@ function App() {
           <div className='bg-sunsetOrange'>
             <div className={`${styles.flexCenter}`}>
               <div className={`${styles.boxWidth}`}>
-                <Hero />
+                <Fade>
+                  <Hero />
+                </Fade>
               </div>
             </div>
           </div>
@@ -70,6 +81,9 @@ function App() {
                 <Contact />
               </div>
             </div>
+          </div>
+          <div>
+            <SocialLinks />
           </div>
           <div className='bg-springGreen'>
             <div className={`  ${styles.flexCenter}`}>

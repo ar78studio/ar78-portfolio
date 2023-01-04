@@ -8,22 +8,6 @@ const About = () => (
     id='about'
     className={`flex m-auto xl:max-w-[1280px] relative w-full lg:w-10/12 px-[10%] sm:mt-[6rem] md:mt-[6rem] lg:mt-[7rem] my-20`}
   >
-    {/* <div className=''>
-      {aboutSection.map((about) => (
-        <ul
-          key={aboutSection.id}
-          className={`font-roboto font-base text-[1rem]`}
-        >
-          <li key='{sectionTitle}' className={`text-springGreen text-xl pb-3`}>
-            {about.title}
-          </li>
-          <li className={`text-springGreen text-sm flex flex-row pb-2`}>
-            {about.content}
-          </li>
-        </ul>
-      ))}
-    </div> */}
-
     <div
       className='font-roboto text-springGreen font-base text-[1rem] justify-center
      '
@@ -35,10 +19,11 @@ const About = () => (
 
       <div>
         <p>
-          Hi there! <br />
-          <mark className='markOrange'>
-            I'm a self-taught Front End Developer currently looking to
-            contribute to exciting projects in a remote team setting.
+          Hi there! I'm Artem:
+          <br />
+          <mark className='markOrange italic'>
+            a self-taught Front End Developer currently looking to contribute to
+            exciting projects, preferably in a remote team setting.
           </mark>
         </p>
 
@@ -52,21 +37,26 @@ const About = () => (
             working with HTML, CSS and JavaScript.
           </a>{" "}
           <br />I have also built{" "}
-          <mark className='markOrange'>a few projects of my own.</mark>
+          <a href='#projects'>
+            <span className='hoverOrange underline'>
+              a few projects of my own.
+            </span>
+          </a>
         </p>
         <p>
+          I've been learning and "playing" with HTML and CSS throughout my life,
+          and in the last few years with JavaScript. In the past few years I
+          realised that <mark className='markOrange'>web development </mark> has
+          grown into a <mark className='markOrange'>passion</mark> to pursue, as
+          the digital playground provides an enormous pool of inspiration and
+          possibilities to create impactful and world-changing applications.{" "}
+          <br />
           For most of my professional career I have crafted functional art and
           furniture for high-end clients out of wood and metal, while also
           guiding, managing and overseeing creative talent working with me.
-          While learning and "playing" with HTML, CSS, and later JavaScript
-          throughout my life, I realised that{" "}
-          <mark className='markOrange'>web development </mark> has grown into a{" "}
-          <mark className='markOrange'>passion</mark> to pursue, as the digital
-          playground provides an enormous pool of inspiration and possibilities
-          to create useful and world-changing applications.
         </p>
 
-        <p>I have worked with the following technologies and software:</p>
+        <p>I've worked with the following technologies and software:</p>
       </div>
 
       <div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-10 mb-10 justify-around'>
