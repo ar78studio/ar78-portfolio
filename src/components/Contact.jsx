@@ -14,6 +14,20 @@ const Contact = () => {
       id='contact'
       className='flex flex-col max-w-[800px] m-auto justify-center relative w-full my-[7rem] sm:mt-[6rem] md:mt-[6rem] lg:mt-[7rem] '
     >
+      {/* To absolutely position the #1 I set the section class above to relative */}
+      <div>
+        <h1
+          className={`text-lightBeige absolute tracking-wider text-4xl top-[-30%] left-[80%] sm:top-[-33%] sm:left-[80.3%] lg:top-[-37%] sm:text-7xl z-50`}
+        >
+          {"#4"}
+        </h1>
+
+        <h1
+          className={`text-blueDianne absolute tracking-wider text-4xl top-[-30.4%] left-[79.8%] sm:top-[-33.5%] sm:left-[80%] lg:top-[-37.5%] sm:text-7xl z-50`}
+        >
+          {"#4"}
+        </h1>
+      </div>
       <div className='flex justify-center sm:justify-left md:justify-left lg:justify-left flex-row font-roboto text-springGreen font-base text-[1rem]'>
         <h3 className='text-3xl font-normal text-sunsetOrange'>//</h3>
         <h3 className='text-3xl font-normal ml-3 text-springGreen'> Contact</h3>

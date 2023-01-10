@@ -23,12 +23,12 @@ const About = () => (
           <br />
           <mark className='markOrange italic'>
             a self-taught Front End Developer currently looking to contribute to
-            exciting projects, preferably in a remote team setting.
+            exciting projects, in a remote team setting.
           </mark>
         </p>
 
         <p>
-          I have had an experience of holding an internship at a small
+          Recently I have had an experience of holding an internship at a small
           <a href='https://www.ultrait.net/'>
             {" "}
             <span className='hoverOrange underline'>
@@ -36,7 +36,9 @@ const About = () => (
             </span>{" "}
             working with HTML, CSS and JavaScript.
           </a>{" "}
-          <br />I have also built{" "}
+        </p>
+        <p>
+          I have also built{" "}
           <a href='#projects'>
             <span className='hoverOrange underline'>
               a few projects of my own.
@@ -44,18 +46,24 @@ const About = () => (
           </a>
         </p>
         <p>
-          I've been learning and "playing" with HTML and CSS throughout my life,
-          and in the last few years with JavaScript. In the past few years I
-          realised that <mark className='markOrange'>web development </mark> has
-          grown into a <mark className='markOrange'>passion</mark> to pursue, as
-          the digital playground provides an enormous pool of inspiration and
-          possibilities to create impactful and world-changing applications.{" "}
-          <br />
-          For most of my professional career I have crafted functional art and
-          furniture for high-end clients out of wood and metal, while also
-          guiding, managing and overseeing creative talent working with me.
+          I grew up in a creative family in Ukraine, who instilled in me a keen
+          eye for detail and ability to bring ideas to fruition, as well as
+          hunger for knowledge. When we moved to the USA in 1995 and my parents
+          bought the first computer I began learning and "playing" with HTML and
+          CSS from the age of 18. At the same time I was exploring my creative
+          nature which led me to a professional career where I have crafted
+          functional art and furniture for private and other high-end clients
+          out of wood and metal, while also guiding, managing and overseeing
+          creative talent working with me.
         </p>
-
+        <p>
+          In the past few years, and with the world moving into the age of AI, I
+          realised that <mark className='markOrange'>web development </mark> IS
+          my other <mark className='markOrange'>passion</mark> to pursue
+          professionally, as the digital playground provides an enormous pool of
+          inspiration and creative possibilities to craft impactful and
+          world-changing applications.{" "}
+        </p>
         <p>I've worked with the following technologies and software:</p>
       </div>
 
@@ -65,7 +73,7 @@ const About = () => (
           <li>+ React.js</li>
           <li>+ Tailwind CSS</li>
           <li>+ Styled Components</li>
-          <li>+ API</li>
+          <li>+ Git, NPM</li>
           <li>+ Wordpress</li>
         </ul>
 

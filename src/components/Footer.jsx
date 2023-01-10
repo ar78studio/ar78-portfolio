@@ -14,7 +14,7 @@ const Footer = () => (
     <div className='flex justify-center flex-row mt-2'>
       <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
         <div>
-          <GithubIcon className='svgBlue svgToOrange mr-0 h-4 sm:mr-4 sm:h-8' />
+          <GithubIcon className='svgBlue svgToOrange mr-0 h-[1.2rem] sm:mr-4 sm:h-[1.5rem]' />
         </div>
       </a>
       <a
@@ -22,7 +22,7 @@ const Footer = () => (
         alt='Twitter - Artem: of the family Repin'
       >
         <div>
-          <TwitterIcon className='svgBlue svgToOrange ml-1 h-4 sm:h-8' />
+          <TwitterIcon className='svgBlue svgToOrange ml-1 h-[1.2rem] sm:h-[1.5rem]' />
         </div>
       </a>
     </div>

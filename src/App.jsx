@@ -17,20 +17,13 @@ import {
 
 function App() {
   const [loading, setLoading] = useState(false);
-  const [siteLoaded, setSiteLoaded] = useState([]);
 
   useEffect(() => {
-    localStorage.setItem("siteLoaded", JSON.stringify(siteLoaded));
-    const loadedSite = JSON.parse(localStorage.getItem("siteLoaded"));
-    if (loadedSite === "true") {
-      setLoading(true);
-      setSiteLoaded(siteLoaded);
-    } else {
-      setTimeout(() => {
-        setLoading(false);
-      }, 5000);
-    }
-  }, [siteLoaded]);
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
 
   return (
     <>
