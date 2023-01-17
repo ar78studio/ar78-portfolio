@@ -33,10 +33,10 @@ export const navLinks = [
     title: "#4.",
     content: " Contact",
   },
-  {
-    id: "cv",
-    content: "CV/Resume",
-  },
+  // {
+  //   id: "cv",
+  //   content: "CV/Resume",
+  // },
 ];
 
 export const hero = [

@@ -35,6 +35,21 @@ const FolderTitle = styled.div`
     color: var(--light-beige);
   }
 
+  &::after {
+    content: ">";
+    font: 1.5rem "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 20px;
+    top: 10px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+  }
+
   @media (max-width: 480px) {
     font-weight: 200;
     font-size: 0.8rem;
@@ -55,11 +70,15 @@ const FolderContent = styled.div`
 `;
 
 function AccordionFolder({ title, children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(null);
+
+  const handleTabClick = (tab) => {
+    setIsOpen(tab === isOpen ? null : tab);
+  };
 
   return (
     <Folder>
-      <FolderTitle onClick={() => setIsOpen(!isOpen)}>{title}</FolderTitle>
+      <FolderTitle onClick={() => handleTabClick("tab")}>{title}</FolderTitle>
       <FolderContent isOpen={isOpen}>{children}</FolderContent>
     </Folder>
   );

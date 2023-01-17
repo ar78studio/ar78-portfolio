@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Test files
-./Test.jsx
+/src/components/Test.jsx

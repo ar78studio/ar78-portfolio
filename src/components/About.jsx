@@ -19,51 +19,53 @@ const About = () => (
 
       <div>
         <p>
-          Hi there! I'm Artem:
-          <br />
-          <mark className='markOrange italic'>
-            a self-taught Front End Developer currently looking to contribute to
-            exciting projects, in a remote team setting.
-          </mark>
+          Hi there! I'm Artem,
+          <p />
+          <p>
+            <mark className='markOrange italic'>
+              a self-taught Front End Developer on a mission to become a tech
+              superstar and contribute to some seriously cool projects in a
+              remote team setting.{" "}
+            </mark>
+          </p>
+          In the past few years, and with the world moving into the age of AI, I
+          realised that{" "}
+          <mark className='markOrange'>web development IS my passion</mark> to
+          pursue professionally, as the digital playground provides an enormous
+          pool of inspiration and creative possibilities to craft impactful and
+          world-changing applications.
         </p>
-
         <p>
-          Recently I have had an experience of holding an internship at a small
+          Recently, I have gained experience through an{" "}
           <a href='https://www.ultrait.net/'>
             {" "}
-            <span className='hoverOrange underline'>
-              CRM Software Development Agency
-            </span>{" "}
-            working with HTML, CSS and JavaScript.
+            <span className='hoverGreen markOrange underline'>
+              internship at a small CRM software development agency,
+            </span>
+          </a>{" "}
+          where I worked with HTML, CSS, and JavaScript. Additionally, I have
+          built{" "}
+          <a href='#projects'>
+            <span className='hoverGreen markOrange underline'>
+              several projects on my own.
+            </span>
           </a>{" "}
         </p>
         <p>
-          I have also built{" "}
-          <a href='#projects'>
-            <span className='hoverOrange underline'>
-              a few projects of my own.
-            </span>
-          </a>
+          I grew up in Ukraine to a creative family of an artist father and an
+          engineer mother, who instilled in me a keen eye for detail and ability
+          to bring ideas to fruition, as well as hunger for knowledge.
         </p>
         <p>
-          I grew up in a creative family in Ukraine, who instilled in me a keen
-          eye for detail and ability to bring ideas to fruition, as well as
-          hunger for knowledge. When we moved to the USA in 1995 and my parents
-          bought the first computer I began learning and "playing" with HTML and
-          CSS from the age of 18. At the same time I was exploring my creative
-          nature which led me to a professional career where I have crafted
-          functional art and furniture for private and other high-end clients
-          out of wood and metal, while also guiding, managing and overseeing
-          creative talent working with me.
+          When we moved to the USA in 1995 and my parents bought the first
+          computer I began learning and "playing" with HTML and CSS from the age
+          of 18. At the same time, I was exploring my creative nature which led
+          me to a professional career crafting functional art and furniture and
+          experience in managing and overseeing creative talent which also
+          prepared me to be a{" "}
+          <mark className='markOrange'>valuable asset to any team.</mark>
         </p>
-        <p>
-          In the past few years, and with the world moving into the age of AI, I
-          realised that <mark className='markOrange'>web development </mark> IS
-          my other <mark className='markOrange'>passion</mark> to pursue
-          professionally, as the digital playground provides an enormous pool of
-          inspiration and creative possibilities to craft impactful and
-          world-changing applications.{" "}
-        </p>
+
         <p>I've worked with the following technologies and software:</p>
       </div>
 
