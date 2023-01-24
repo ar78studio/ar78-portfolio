@@ -2,7 +2,7 @@
 
 import {
   functionImg,
-  artemBodyImg,
+  artemWebP,
   openTabIcon,
   pomodorImg,
   invoiceImg,

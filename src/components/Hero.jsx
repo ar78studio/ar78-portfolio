@@ -1,5 +1,5 @@
 import React from "react";
-import { functionImg, artemBodyImg } from "../assets/index.js";
+import { functionImg, artemWebP } from "../assets/index.js";
 
 const Hero = () => (
   <section
@@ -38,7 +38,7 @@ const Hero = () => (
     </div>
 
     <img
-      src={artemBodyImg}
+      src={artemWebP}
       alt='Artem: of the family Repin-Muhin, Front End Developer / Engineer'
       className='h-[15rem] sm:h-[28rem] md:h-[46rem] m-auto w-auto pb-0 mb-0 object-cover'
     />

@@ -1,5 +1,5 @@
 export { default as functionImg } from "./functionSVG.svg";
-export { default as artemBodyImg } from "./ArtemBodyOptimized.png";
+export { default as artemWebP } from "./ArtemBodyOptimized@2x.webp";
 export { default as openTabIcon } from "./arrowOpenWindow.svg";
 export { default as pomodorImg } from "./Pomodoro@2x.jpg";
 export { default as invoiceImg } from "./Invoice@2x.jpg";
