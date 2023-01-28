@@ -19,7 +19,7 @@ const About = () => (
 
       <div>
         <p>
-          Hi there! I'm Artem,
+          Hi there! I'm Artem of the family Repin,
           <p />
           <p>
             <mark className='markOrange italic'>
