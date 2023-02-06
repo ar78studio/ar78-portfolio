@@ -19,18 +19,20 @@ const About = () => (
 
       <div>
         <p>
-          Hi there! I'm Artem of the family Repin, it is a pleasure to meet you!
+          Hi there! I'm Artem of the family Repin, it is great to meet you!
           <p />
           <p>
             <mark className='markOrange italic'>
-              At the moment I am in the process of transitioning to a career as
-              a Front End Developer and looking to contribute to some seriously
-              cool projects in a remote team setting.{" "}
-            </mark>
+              At this stage of my life I am transitioning to a career as a Front
+              End Developer and would welcome an opportunity to contribute to
+              some seriously cool projects in a remote team setting.
+            </mark>{" "}
+            I am based in Europe. If you would like to chat about us working
+            together, please don't hesitate and reach out.{" "}
           </p>
           <p>
             Recently, I have gained experience through an{" "}
-            <a href='https://www.ultrait.net/'>
+            <a target={"_blank"} href='https://www.ultrait.net/'>
               {" "}
               <span className='hoverGreen markOrange underline'>
                 internship at a small CRM software development agency,
@@ -45,12 +47,11 @@ const About = () => (
             </a>{" "}
           </p>
           <p>
-            In the past few years, and with the world moving into the age of AI,
-            I realised that{" "}
-            <mark className='markOrange'>web development IS my passion</mark> to
-            pursue professionally, as the digital playground provides an
-            enormous pool of inspiration and creative possibilities to craft
-            impactful and world-changing applications.
+            My background in a creative career has influenced my passion for Web
+            Design and Front End Development, I am also fascinated with
+            decentralisation and responsible autonomy, thus Blockchain and
+            Crypto is the field that I am very much interested to grow in and
+            contribute to.
           </p>
         </p>
 
