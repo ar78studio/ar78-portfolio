@@ -8,11 +8,11 @@ const Hero = () => (
   >
     <div className={`flex flex-col`}>
       <p className='text-blueDianne text-xs sm:text-lg md:text-2xl lg:text-2xl font-bold'>
-        {"Hi, and welcome to the web portal"}
+        {"Hi, and welcome to my web portal,"}
       </p>
 
       <h1 className='text-blueDianne w-max font-black font-montserrat text-[1.5rem] sm:text-[3.1rem] md:text-[4.8rem]'>
-        {"By: Artem: Repin"}
+        {"I'm Artem:"}
       </h1>
 
       {/* Start Function */}

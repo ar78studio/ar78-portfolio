@@ -28,7 +28,8 @@ const Footer = () => (
     </div>
     <div className='flex justify-center mt-3 mb-0'>
       <p className='text-[0.6rem] text-blueDianne'>
-        Copyright 2023. All rights reserved without prejudice by: Artem: Repin
+        Copyright 2023. All rights reserved without prejudice by: Artem: of the
+        family Repin
       </p>
     </div>
   </section>

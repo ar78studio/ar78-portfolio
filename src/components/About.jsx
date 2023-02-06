@@ -19,50 +19,52 @@ const About = () => (
 
       <div>
         <p>
-          Hi there! I'm Artem of the family Repin,
+          Hi there! I'm Artem of the family Repin, it is a pleasure to meet you!
           <p />
           <p>
             <mark className='markOrange italic'>
-              a self-taught Front End Developer on a mission to become a tech
-              superstar and contribute to some seriously cool projects in a
-              remote team setting.{" "}
+              At the moment I am in the process of transitioning to a career as
+              a Front End Developer and looking to contribute to some seriously
+              cool projects in a remote team setting.{" "}
             </mark>
           </p>
-          In the past few years, and with the world moving into the age of AI, I
-          realised that{" "}
-          <mark className='markOrange'>web development IS my passion</mark> to
-          pursue professionally, as the digital playground provides an enormous
-          pool of inspiration and creative possibilities to craft impactful and
-          world-changing applications.
+          <p>
+            Recently, I have gained experience through an{" "}
+            <a href='https://www.ultrait.net/'>
+              {" "}
+              <span className='hoverGreen markOrange underline'>
+                internship at a small CRM software development agency,
+              </span>
+            </a>{" "}
+            where I worked with HTML, CSS, and JavaScript. Additionally, I have
+            built{" "}
+            <a href='#projects'>
+              <span className='hoverGreen markOrange underline'>
+                several projects on my own.
+              </span>
+            </a>{" "}
+          </p>
+          <p>
+            In the past few years, and with the world moving into the age of AI,
+            I realised that{" "}
+            <mark className='markOrange'>web development IS my passion</mark> to
+            pursue professionally, as the digital playground provides an
+            enormous pool of inspiration and creative possibilities to craft
+            impactful and world-changing applications.
+          </p>
         </p>
-        <p>
-          Recently, I have gained experience through an{" "}
-          <a href='https://www.ultrait.net/'>
-            {" "}
-            <span className='hoverGreen markOrange underline'>
-              internship at a small CRM software development agency,
-            </span>
-          </a>{" "}
-          where I worked with HTML, CSS, and JavaScript. Additionally, I have
-          built{" "}
-          <a href='#projects'>
-            <span className='hoverGreen markOrange underline'>
-              several projects on my own.
-            </span>
-          </a>{" "}
-        </p>
+
         <p>
           I grew up in Ukraine to a creative family of an artist father and an
           engineer mother, who instilled in me a keen eye for detail and ability
           to bring ideas to fruition, as well as hunger for knowledge.
         </p>
         <p>
-          When we moved to the USA in 1995 and my parents bought the first
-          computer I began learning and "playing" with HTML and CSS from the age
-          of 18. At the same time, I was exploring my creative nature which led
-          me to a professional career crafting functional art and furniture and
-          experience in managing and overseeing creative talent which also
-          prepared me to be a{" "}
+          When I moved to USA at the age of 18, I began learning and "playing"
+          with HTML and CSS. At the same time, I was exploring my creative
+          nature which led me to a professional career crafting functional art
+          and furniture and experience in managing and overseeing creative
+          talent which also prepared me to be a{" "}
           <mark className='markOrange'>valuable asset to any team.</mark>
         </p>
 
