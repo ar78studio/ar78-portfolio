@@ -27,6 +27,7 @@ const Folder = styled.div`
 
 const FolderTitle = styled.div`
   padding: 0.7em 1em;
+  margin-right: 35px;
   font-weight: 400;
   font-family: var(--font-family-roboto);
   cursor: pointer;
@@ -44,8 +45,9 @@ const FolderTitle = styled.div`
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     right: 20px;
-    top: 10px;
+    top: 5px;
     padding: 0 0 2px;
+    margin-left: 20px;
     position: absolute;
     pointer-events: none;
   }

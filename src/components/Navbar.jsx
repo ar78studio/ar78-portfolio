@@ -40,7 +40,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-roboto font-medium cursor-pointer mr-6 text-[0.8rem] md:text-[1rem] 
+            className={`font-roboto font-medium cursor-pointer mr-6 text-[0.9rem] md:text-[1rem] 
             // Margin right to all but the last nav link. From constants/index.js
             ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}
             `}
