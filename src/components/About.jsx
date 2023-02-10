@@ -2,6 +2,8 @@ import React from "react";
 import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
+import { ReactComponent as LinkedInIcon } from "../assets/linkedin.svg";
+// import { CiLinkedin } from "react-icons/ci";
 
 const About = () => (
   <section
@@ -28,11 +30,13 @@ const About = () => (
               opportunity to contribute to some seriously cool projects in a
               remote team setting.
             </mark>{" "}
+          </p>
+          <p>
             I am based in Europe. If you would like to chat about us working
             together, please don't hesitate and reach out.{" "}
           </p>
           <p>
-            I have gained experience through an{" "}
+            The current experience I have I gained through an{" "}
             <a target={"_blank"} href='https://www.ultrait.net/'>
               {" "}
               <span className='hoverGreen markOrange underline'>
@@ -59,16 +63,18 @@ const About = () => (
         </p>
 
         <p>
-          I grew up in Ukraine to a creative family of an artist father and an
-          engineer mother, who instilled in me a keen eye for detail and ability
-          to bring ideas to fruition, as well as hunger for knowledge.
+          I grew up in Ukraine in a creative family of an artist father,
+          grandfater and an engineer mother, who instilled in me a keen eye for
+          detail and ability to bring ideas to fruition, as well as hunger for
+          knowledge.
         </p>
         <p>
-          When I moved to USA at the age of 18, I began learning and "playing"
-          with HTML, CSS, design and 3d modeling software. At the same time, I
-          was exploring my creative nature which led me to a professional career
-          crafting functional art and furniture and experience in managing and
-          overseeing creative talent which also prepared me to be a{" "}
+          When my family moved me to USA in 1995 at the age of 18, I began
+          learning and playing with Web Design and Development, 3D Modeling
+          Software as well as Audio Software. At the same time, I was exploring
+          my creative nature which led me to a professional career crafting
+          functional art and furniture and experience in managing and overseeing
+          creative talent which also prepared me to be a{" "}
           <mark className='markOrange'>valuable asset to any team.</mark>
         </p>
 
@@ -101,19 +107,40 @@ const About = () => (
       {/* Start Github and Twitter Icons */}
       <div className={`flex flex-wrap justify-center mb-10`}>
         <div className='flex flex-row sm:place-self-center '>
-          <a href='https://github.com/ar78studio' alt='GitHub - AR78.studio'>
+          <a
+            target={"_blank"}
+            href='https://github.com/ar78studio'
+            alt='GitHub - AR78.studio'
+          >
             <div>
-              <GithubIcon className='svgGreen svgToOrange mr-10 hover:-translate-y-1  transition duration-300' />
+              <GithubIcon
+                size={32}
+                className={`svgGreen svgToOrange mr-10 hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6`}
+              />
             </div>
           </a>
 
           <a
+            target={"_blank"}
             href='https://twitter.com/GeochiNova'
             alt='Twiter - Artem: of the family Repin-Muhin'
           >
             <div>
-              <TwitterIcon className='svgGreen svgToOrange hover:-translate-y-1  transition duration-300' />
+              <TwitterIcon
+                size={32}
+                className={`svgGreen svgToOrange mr-10 hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6`}
+              />
             </div>
+          </a>
+
+          <a
+            target={"_blank"}
+            href='https://www.linkedin.com/in/artem-r-803310262/'
+          >
+            <LinkedInIcon
+              size={32}
+              className={`svgGreen svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6`}
+            />
           </a>
         </div>
       </div>
@@ -124,13 +151,13 @@ const About = () => (
     {/* To absolutely position the #1 I set the section class above to relative */}
     <div>
       <h1
-        className={`text-blueDianne absolute tracking-wider text-4xl top-[105%] left-[76%] sm:top-[105.5%] sm:left-[75%] sm:text-7xl`}
+        className={`text-blueDianne absolute tracking-wider text-4xl top-[103.7%] left-[76%] sm:top-[105.5%] sm:left-[75%] sm:text-7xl`}
       >
         {"#2"}
       </h1>
 
       <h1
-        className={`text-springGreen absolute tracking-wider text-4xl top-[104.8%] left-[75.5%] sm:top-[105%] sm:left-[74.7%] sm:text-7xl`}
+        className={`text-springGreen absolute tracking-wider text-4xl top-[103.6%] left-[75.5%] sm:top-[105%] sm:left-[74.7%] sm:text-7xl`}
       >
         {"#2"}
       </h1>

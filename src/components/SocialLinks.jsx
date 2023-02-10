@@ -3,7 +3,7 @@ import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 import { ReactComponent as EmailIcon } from "../assets/email.svg";
-import { CiLinkedin } from "react-icons/ci";
+import { ReactComponent as LinkedInIcon } from "../assets/linkedin.svg";
 
 const SocialLinks = () => {
   function Mailto({ email, subject, body, ...props }) {
@@ -16,20 +16,23 @@ const SocialLinks = () => {
 
   return (
     <div className='invisible sm:visible lg:visible fixed bottom-[40%] bg-white opacity-80 right-0 lg:h-48 lg:w-12 w-8 h-48 flex flex-col items-center justify-evenly rounded-tl-md rounded-bl-md'>
-      <a href='https://github.com/ar78studio'>
+      <a target={"_blank"} href='https://github.com/ar78studio'>
         <GithubIcon
           size={32}
           className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
         />
       </a>
-      <a href='https://twitter.com/GeochiNova'>
+      <a target={"_blank"} href='https://twitter.com/GeochiNova'>
         <TwitterIcon
           size={32}
           className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
         />
       </a>
-      <a href='https://www.linkedin.com/in/artem-r-803310262/'>
-        <CiLinkedin
+      <a
+        target={"_blank"}
+        href='https://www.linkedin.com/in/artem-r-803310262/'
+      >
+        <LinkedInIcon
           size={32}
           className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
         />

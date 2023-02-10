@@ -7,11 +7,11 @@ const Hero = () => (
     className={`flex m-auto xl:max-w-[1280px] relative flex-row pt-[7rem] lg:pt-[9rem] px-6 md:px-[6rem] sm:px-[4rem]`}
   >
     <div className={`flex flex-col`}>
-      <p className='text-blueDianne text-xs sm:text-lg md:text-2xl lg:text-2xl font-bold'>
+      <p className='text-blueDianne text-sm sm:text-lg md:text-2xl lg:text-2xl font-bold'>
         {"Hi, and welcome to my web portal,"}
       </p>
 
-      <h1 className='text-blueDianne w-max font-black font-montserrat text-[1.5rem] sm:text-[3.1rem] md:text-[4.8rem]'>
+      <h1 className='text-blueDianne w-max font-black font-montserrat text-[2.4rem] sm:text-[3.1rem] md:text-[4.8rem]'>
         {"I'm Artem:"}
       </h1>
 
@@ -22,13 +22,13 @@ const Hero = () => (
       {/* Start Hero I am passionate Dev */}
       <div className={`flex w-fit mr-4`}>
         <span
-          className={`text-blueDianne font-bold text-[0.5rem] mr-2 mt-4 sm:text-[0.8rem] md:text-[1rem] mx-0 pb-6`}
+          className={`text-blueDianne font-bold text-[0.8rem] mr-2 mt-4 sm:text-[0.8rem] md:text-[1rem] mx-0 pb-6`}
         >
           {" "}
           {">>"}
         </span>
         <span
-          className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[1rem] md:text-[1.2rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
+          className={`text-blueDianne flex flex-wrap font-bold text-[0.8rem] mt-4 sm:text-[1rem] md:text-[1.2rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
         >
           {
             "I'm a passionate and thirsty UX/UI Designer + Front End Developer who strives to produce clean code and appreciates good web design aesthetics. Currently, I am working on expanding my knowledge base in Solidity, React.js and Next.js"
