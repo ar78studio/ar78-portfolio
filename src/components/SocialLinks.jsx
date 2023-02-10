@@ -3,6 +3,7 @@ import "../index.css";
 import { ReactComponent as GithubIcon } from "../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
 import { ReactComponent as EmailIcon } from "../assets/email.svg";
+import { CiLinkedin } from "react-icons/ci";
 
 const SocialLinks = () => {
   function Mailto({ email, subject, body, ...props }) {
@@ -23,6 +24,12 @@ const SocialLinks = () => {
       </a>
       <a href='https://twitter.com/GeochiNova'>
         <TwitterIcon
+          size={32}
+          className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
+        />
+      </a>
+      <a href='https://www.linkedin.com/in/artem-r-803310262/'>
+        <CiLinkedin
           size={32}
           className={`ml-1 svgBlue svgToOrange hover:-translate-y-1  transition duration-300 lg:w-8 lg:h-8 w-6 h-6  `}
         />
