@@ -31,7 +31,7 @@ const Hero = () => (
           className={`text-blueDianne flex flex-wrap font-bold text-[0.6rem] mt-4 sm:text-[1rem] md:text-[1.2rem] mr-2 sm:mr-30 lg:mr-40 sm:pb-20 pb-20 lg:pb-40`}
         >
           {
-            "I'm a passionate and thirsty Front End Developer who strives to produce clean code and appreciates good web design aesthetics. Currently, I am working on expanding my knowledge base in Solidity, React.js and Next.js"
+            "I'm a passionate and thirsty UX/UI Designer + Front End Developer who strives to produce clean code and appreciates good web design aesthetics. Currently, I am working on expanding my knowledge base in Solidity, React.js and Next.js"
           }
         </span>
       </div>

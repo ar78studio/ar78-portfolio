@@ -23,35 +23,38 @@ const About = () => (
           <p />
           <p>
             <mark className='markOrange italic'>
-              At this stage of my life I am transitioning to a career as a Front
-              End Developer and would welcome an opportunity to contribute to
-              some seriously cool projects in a remote team setting.
+              At this stage in my career I am looking to share my passion in
+              UX/UI design and Front End Development and would welcome an
+              opportunity to contribute to some seriously cool projects in a
+              remote team setting.
             </mark>{" "}
             I am based in Europe. If you would like to chat about us working
             together, please don't hesitate and reach out.{" "}
           </p>
           <p>
-            Recently, I have gained experience through an{" "}
+            I have gained experience through an{" "}
             <a target={"_blank"} href='https://www.ultrait.net/'>
               {" "}
               <span className='hoverGreen markOrange underline'>
                 internship at a small CRM software development agency,
               </span>
             </a>{" "}
-            where I worked with HTML, CSS, and JavaScript. Additionally, I have
+            where I worked with Front End Technologies like JavaSript, and
+            prototyped design in AdobeXD and Photoshop. Additionally, I have
             built{" "}
             <a href='#projects'>
               <span className='hoverGreen markOrange underline'>
                 several projects on my own.
               </span>
             </a>{" "}
+            I as well continue expending my skills daily by studying and working
+            on Front End Projects.
           </p>
           <p>
-            My background in a creative career has influenced my passion for Web
+            My creative background and career have influenced my passion for Web
             Design and Front End Development, I am also fascinated with
             decentralisation and responsible autonomy, thus Blockchain and
-            Crypto is the field that I am very much interested to grow in and
-            contribute to.
+            Crypto is the field that I am very much interested in.
           </p>
         </p>
 
@@ -62,10 +65,10 @@ const About = () => (
         </p>
         <p>
           When I moved to USA at the age of 18, I began learning and "playing"
-          with HTML and CSS. At the same time, I was exploring my creative
-          nature which led me to a professional career crafting functional art
-          and furniture and experience in managing and overseeing creative
-          talent which also prepared me to be a{" "}
+          with HTML, CSS, design and 3d modeling software. At the same time, I
+          was exploring my creative nature which led me to a professional career
+          crafting functional art and furniture and experience in managing and
+          overseeing creative talent which also prepared me to be a{" "}
           <mark className='markOrange'>valuable asset to any team.</mark>
         </p>
 
@@ -88,6 +91,7 @@ const About = () => (
           <li>+ 3D Studio MAX, Blender</li>
           <li>+ Sketchup</li>
           <li>+ Final Cut Pro</li>
+          <li>+ Ableton Live</li>
         </ul>
       </div>
 
