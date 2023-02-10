@@ -18,8 +18,17 @@ const Experience = () => {
         </h3>
       </div>
       <div className='flex flex-col mx-4 sm:mx-20 min-w-[400px] lg:min-w-[625px] max-w-[625px] mt-10 drop-shadow-xl'>
+        <AccordionFolder title='Student at Scrimba Front End Developer Career Path // January 2022 - Present'>
+          <div className='italic font-light text-sm mr-6'>
+            <p>
+              ▹ Full-time studies in Front End Development (JavaScript, React,
+              APIs)
+            </p>
+          </div>
+        </AccordionFolder>
+
         <AccordionFolder title='UltraIT.net // March 2020 - April 2020 // Javea, Spain'>
-          <div className='italic font-light text-sm'>
+          <div className='italic font-light text-sm mr-6'>
             <p>
               ▹ Communicated with the Lead Developer in editing and modifying
               existing web pages
@@ -40,24 +49,29 @@ const Experience = () => {
           </div>
         </AccordionFolder>
         <AccordionFolder title='Milne at Home - March 2014 - July 2017 // Kingston, NY USA'>
-          <div className='italic font-light text-sm'>
-            <p>
-              ▹ Met with high-end clients, discussed concepts and ideas and
-              offered creative input and solutions
-            </p>
-            <p>
-              ▹ Managed the workshop, and supported a well-functioning team
-              environment while delegating tasks and ideas to team members in
-              production of Custom Furniture using various materials
-            </p>
+          <div className='italic font-light text-sm mr-6'>
             <p>
               ▹ Designed and built from concept to a finished product Custom
               Furniture. Restored antique pieces of furniture
             </p>
+            <p>
+              ▹ Brought the company's manufacturing and quality control
+              standards to new levels which attracted high paying clients
+            </p>
+            <p>
+              ▹ Managed the workshop, and inspired a well-functioning team while
+              nurturing team-member strengths and their creativity and growth in
+              production of Custom Furniture using various materials and
+              techniques
+            </p>
+            <p>
+              ▹ Met with clients, discussed concepts and ideas and offered
+              creative input and solutions
+            </p>
           </div>
         </AccordionFolder>
         <AccordionFolder title='Owner @ ChantingTree.com // 2008 - 2017 // Pennsylvania, USA '>
-          <div className='italic font-light text-sm'>
+          <div className='italic font-light text-sm mr-6'>
             <p>▹ Designed, built and distributed Native American Flutes</p>
             <p>▹ Managed product sales via the WordPress website</p>
             <p>

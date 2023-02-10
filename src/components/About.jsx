@@ -20,46 +20,41 @@ const About = () => (
       </div>
 
       <div>
+        <p>Hi there! I'm Artem of the family Repin, it is great to meet you!</p>
         <p>
-          Hi there! I'm Artem of the family Repin, it is great to meet you!
-          <p />
-          <p>
-            <mark className='markOrange italic'>
-              At this stage in my career I am looking to share my passion in
-              UX/UI design and Front End Development and would welcome an
-              opportunity to contribute to some seriously cool projects in a
-              remote team setting.
-            </mark>{" "}
-          </p>
-          <p>
-            I am based in Europe. If you would like to chat about us working
-            together, please don't hesitate and reach out.{" "}
-          </p>
-          <p>
-            The current experience I have I gained through an{" "}
-            <a target={"_blank"} href='https://www.ultrait.net/'>
-              {" "}
-              <span className='hoverGreen markOrange underline'>
-                internship at a small CRM software development agency,
-              </span>
-            </a>{" "}
-            where I worked with Front End Technologies like JavaSript, and
-            prototyped design in AdobeXD and Photoshop. Additionally, I have
-            built{" "}
-            <a href='#projects'>
-              <span className='hoverGreen markOrange underline'>
-                several projects on my own.
-              </span>
-            </a>{" "}
-            I as well continue expending my skills daily by studying and working
-            on Front End Projects.
-          </p>
-          <p>
-            My creative background and career have influenced my passion for Web
-            Design and Front End Development, I am also fascinated with
-            decentralisation and responsible autonomy, thus Blockchain and
-            Crypto is the field that I am very much interested in.
-          </p>
+          <mark className='markOrange italic'>
+            At this stage in my career I am looking to share my passion in UX/UI
+            design and Front End Development and would welcome an opportunity to
+            contribute to some seriously cool projects in a remote team setting.
+          </mark>{" "}
+        </p>
+        <p>
+          I am based in Europe. If you would like to chat about us working
+          together, please don't hesitate and reach out.{" "}
+        </p>
+        <p>
+          The current experience I have I gained through an{" "}
+          <a target={"_blank"} href='https://www.ultrait.net/'>
+            {" "}
+            <span className='hoverGreen markOrange underline'>
+              internship at a small CRM software development agency,
+            </span>
+          </a>{" "}
+          where I worked with Front End Technologies like JavaSript, and
+          prototyped design in AdobeXD and Photoshop. Additionally, I have built{" "}
+          <a href='#projects'>
+            <span className='hoverGreen markOrange underline'>
+              several projects on my own.
+            </span>
+          </a>{" "}
+          I as well continue expending my skills daily by studying and working
+          on Front End Projects.
+        </p>
+        <p>
+          My creative background and career have influenced my passion for Web
+          Design and Front End Development, I am also fascinated with
+          decentralisation and responsible autonomy, thus Blockchain and Crypto
+          is the field that I am very much interested in.
         </p>
 
         <p>
