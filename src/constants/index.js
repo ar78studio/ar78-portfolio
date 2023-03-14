@@ -1,4 +1,4 @@
-// Static text for the website to map over. Can be changed by a non-technical being.
+// Static text for the website to map over. Can be changed by a non-technical .
 
 import {
   functionImg,
@@ -89,14 +89,6 @@ export const aboutSection = [
     content:
       "+ Figma, Adobe XD + Photoshop, Illustrator + 3D Studio max, Blender + Sketchup + Final Cut Pro",
   },
-  // {
-  //   id: "software",
-  //   content: "+ Figma, Adobe XD",
-  //   content: "+ Photoshop, Illustrator",
-  //   content: "+ 3D Studio max, Blender",
-  //   content: "+ Sketchup",
-  //   content: "+ Final Cut Pro",
-  // },
 ];
 
 export const projects = [
