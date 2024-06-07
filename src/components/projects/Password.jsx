@@ -29,7 +29,7 @@ const Password = () => {
 					</a>
 
 					<div>
-						<a href='https://password.ar78.studio/' target='_blank'>
+						<a href='https://ar78studio.github.io/PasswordGen/' target='_blank'>
 							<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
 						</a>
 					</div>
@@ -58,9 +58,6 @@ const Password = () => {
 						<p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
 							This one is a simple project to generate a number of random passwords and automatically saving one as a text file into your downloads folder after clicking on the
 							chosen password button.
-							<a href='https://password.ar78.studio/' target='_blank'>
-								<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300 mt-2' />
-							</a>
 						</p>
 					</div>
 					<img

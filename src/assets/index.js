@@ -10,5 +10,5 @@ export { default as menuIcon } from './menuSVG.svg';
 export { default as closeIcon } from './close.svg';
 export { default as clickHere } from './clickHere.svg';
 export { default as ChevronArrow } from './chevron-down.svg';
-export { default as VipSafetyLong } from './VipSafetyFirst_long.png';
+// export { default as VipSafetyLong } from './VipSafetyFirst_long.png';
 export { default as VipSafetyImg } from './VipSafetyFirst.png';

@@ -27,7 +27,7 @@ const Pomodoro = () => {
 					</a>
 
 					<div>
-						<a href='https://pomodoro.ar78.studio/' target='_blank'>
+						<a href='https://ar78studio.github.io/Pomodoro-Productivity-App/' target='_blank'>
 							<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
 						</a>
 					</div>
@@ -52,15 +52,13 @@ const Pomodoro = () => {
 							/>
 						</div>
 						<p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
-							This app is an advanced Front End Mentor challenge. The user is able to set a Pomodoro timer and short & long break timers. Customize how long each timer runs for. A
-							responsive circular progress bar updates as the time passes. Customize the appearance of the app with the ability to set preferences for colors and fonts.
+							This app is an advanced Front End Mentor challenge, which I took on to test my ability to work with "advanced" projects as a beginner developer. The user is able to
+							set a Pomodoro timer and short & long break timers. Customize how long each timer runs for. See a circular progress bar that updates every minute. Customize the
+							appearance of the app with the ability to set preferences for colors and fonts.
 						</p>
 						<p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
 							Besides finding this app useful in staying productive and not burning out, as it is easy to get in the creative zone and forget about the needs of the body while
 							coding, I have also come to the conclusion that "advanced" is only a name of the mountain until one begins to climb it.
-							<a href='https://pomodoro.ar78.studio/' target='_blank'>
-								<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300 mt-2' />
-							</a>
 						</p>
 					</div>
 					<img

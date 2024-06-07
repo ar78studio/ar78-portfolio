@@ -17,20 +17,20 @@ const About = () => (
 			</div>
 
 			<div>
-				<p>Hi there! I'm Artem of the family Repin, it is great to meet you!</p>
+				<p>Hi there! I'm Artem: of the family Repin, it is great to meet you!</p>
 				<p>
 					<mark className='markOrange italic'>
-						At this stage in my career I am looking to share my passion in Front End Development and UX/UI design and thus welcome an opportunity to contribute to some seriously
-						cool projects in a remote team setting.
+						I am looking to share my passion in Front End Development, UX/UI design and 3D Graphics and thus welcome an opportunity to contribute to some seriously cool projects
+						preferably in a remote team setting.
 					</mark>{' '}
 				</p>
-				<p>I am based in Europe. If you would like to chat about collaboration on a project, please don't hesitate and reach out. </p>
+				<p>If you would like to chat about collaboration on a project, please don't hesitate and reach out. </p>
 				<p>
-					The very recent project I've worked on was for a telecom company - conXhub. The result was a migration of one of the many Wordpress websites to the React ecosystem and
-					implementation of communication between the front-end and back-end server to verify a client's mobile phone number to then let them choose and sign-up for the
-					international telephony services the company provides. As well as designing and implementing a custom Stripe checkout integration.{' '}
+					The very recent project I've worked on was maintanance and migration of one of the Elementor websites to the React ecosystem and implementation of communication between
+					the front-end and back-end server to verify a client's mobile phone number to then let them choose and sign-up for the international telephony services the company
+					provides. As well as designing and implementing a custom Stripe checkout integration.{' '}
 				</p>
-				<p>
+				{/* <p>
 					Before working at conXhub, I was enrolled in a year long Front-End Career Development Path at Scrimba.com and prior to that I have held an
 					<a target={'_blank'} href='https://www.ultrait.net/'>
 						{' '}
@@ -41,7 +41,7 @@ const About = () => (
 						<span className='hoverGreen markOrange underline'>several projects on my own.</span>
 					</a>{' '}
 					I as well continue expending my skills daily by studying and working on Front End Projects.
-				</p>
+				</p> */}
 				<p>
 					My creative background and career have influenced my passion for Web Design and Front End Development, I am also fascinated with decentralisation and responsible
 					autonomy, thus Blockchain and Crypto is the field that I am very much interested in.
@@ -57,10 +57,10 @@ const About = () => (
 					creative talent which also prepared me to be a <mark className='markOrange'>valuable asset to any team.</mark>
 				</p>
 
-				<p>Some of the technologies and software I've worked with:</p>
+				<p className='pt-10 text-2xl'>Some of the technologies and software I've worked with:</p>
 			</div>
 
-			<div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-10 mb-10 justify-around'>
+			<div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-10 mb-10 justify-evenly'>
 				<ul className='flex flex-col '>
 					<li>+ React.js</li>
 					<li>+ Next.js</li>
@@ -70,13 +70,13 @@ const About = () => (
 					<li>+ Node, Express</li>
 					<li>+ GraphQL</li>
 					<li>+ Git, NPM</li>
-					<li>+ Wordpress</li>
+					<li>+ Wordpress (Elementor, Oxygen)</li>
 				</ul>
 
 				<ul className='flex flex-col'>
 					<li>+ Figma, Adobe XD</li>
 					<li>+ Photoshop, Illustrator</li>
-					<li>+ 3D Studio MAX, Blender</li>
+					<li>+ 3D Studio MAX, Blender, Rhino 3D</li>
 					<li>+ Sketchup</li>
 					<li>+ Final Cut Pro</li>
 					<li>+ Ableton Live</li>

@@ -29,7 +29,7 @@ const Invoice = () => {
 					</a>
 
 					<div>
-						<a href='https://invoice.ar78.studio/' target='_blank'>
+						<a href='https://ar78studio.github.io/invoice-creator/' target='_blank'>
 							<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
 						</a>
 					</div>
@@ -65,9 +65,6 @@ const Invoice = () => {
 						<p className='px-5 pt-0 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
 							This app allows you to create an invoice and email it to a client. It uses local-storage methods to keep the data you have entered until cleared the form. Built with
 							HTML, CSS and JavaScript
-							<a href='https://invoice.ar78.studio/' target='_blank'>
-								<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300 mt-2' />
-							</a>
 						</p>
 					</div>
 					<img

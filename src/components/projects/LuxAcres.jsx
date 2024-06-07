@@ -27,7 +27,7 @@ const LuxAcres = () => {
 					</a>
 
 					<div>
-						<a href='https://luxacres.ar78.studio/' target='_blank'>
+						<a href='https://ar78studio.github.io/LuxAcres/' target='_blank'>
 							<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
 						</a>
 					</div>
@@ -66,9 +66,6 @@ const LuxAcres = () => {
 						</p>
 						<p className='px-5 text-[0.6rem] sm:text-sm font-base font-roboto text-blueDianne'>
 							I enjoyed very much working on this project, as it provided an opportunity to direct myself from the initial concept to design and production.
-							<a href='https://luxacres.ar78.studio/' target='_blank'>
-								<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300 mt-2' />
-							</a>
 						</p>
 					</div>
 					<img

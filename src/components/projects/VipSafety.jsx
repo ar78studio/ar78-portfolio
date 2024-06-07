@@ -16,7 +16,7 @@ const VipSafety = () => {
 			<Fade>
 				<div className='flex flex-row'>
 					<h4 className='font-roboto text-sunsetOrange font-medium text-lg mr-3'>|</h4>
-					<h4 className='font-roboto text-blueDianne font-medium text-lg'>conXhub</h4>
+					<h4 className='font-roboto text-blueDianne font-medium text-lg'>Telecom</h4>
 				</div>
 
 				<div className='flex justify-end'>
@@ -43,7 +43,7 @@ const VipSafety = () => {
     absolute h-fit w-fit border-box projectBgWhite m-[2rem] mt-[2rem] sm:mt-[4rem] p-2 sm:p-4 rounded-md z-[99]`}
 					>
 						<div className='flex flex-1 justify-between items-center right-6 z-[200] '>
-							<h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>Vip Safety First</h4>
+							<h4 className=' ml-5 text-[0.7rem] sm:text-md font-medium font-roboto text-blueDianne'>Telecom</h4>
 							<img
 								className={`w-[20px] h-[20px] ml-3 mt-0 sm:w-[30px] sm:h-[30px] object-contain cursor-pointer stroke-one-point-five`}
 								src={closeIcon}
