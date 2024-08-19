@@ -17,21 +17,25 @@ const About = () => (
 			</div>
 
 			<div>
-				<p>Hi there! I'm Artem: of the family Repin, it is great to meet you!</p>
+				<p>Hi there! I'm Artem: of the family Repnin-Volkonsky, it is great to meet you!</p>
 				<p>
 					<mark className='markOrange italic'>
-						I am looking to share my passion in Front End Development, UX/UI design and 3D Graphics and thus welcome an opportunity to contribute to some seriously cool projects
-						preferably in a remote team setting.
+						I am looking to join a remote team in the role of a Web Developer / Graphic Designer and thus welcome an opportunity to contribute my skills and talents to a driven
+						company.
 					</mark>{' '}
 				</p>
-				<p>If you would like to chat about collaboration on a project, please don't hesitate and reach out. </p>
 				<p>
-					The very recent project I've worked on was maintanance and migration of one of the Elementor websites to the React ecosystem and implementation of communication between
-					the front-end and back-end server to verify a client's mobile phone number to then let them choose and sign-up for the international telephony services the company
-					provides. As well as designing and implementing a custom Stripe checkout integration.{' '}
+					I am versatile in a variety of multimedia software and technologies in Graphic Design as well as Wordpress and Programming Languages. I have experience in photography,
+					filming and editing video as well as 3D modeling and Animation.
 				</p>
-				{/* <p>
-					Before working at conXhub, I was enrolled in a year long Front-End Career Development Path at Scrimba.com and prior to that I have held an
+				{/* <p>If you would like to chat about collaboration on a project, please don't hesitate and reach out. </p> */}
+				<p>
+					The very recent project I've worked on was for a Telecom Company , a design and maintanance and subsequently migration of one of the Wordpress (Elementor) websites to the
+					React ecosystem and implementation of communication between the front-end and back-end server to verify a client's mobile phone number to then let them choose and sign-up
+					for the international telephony services the company provides. As well as designing and implementing a custom Stripe checkout integration.{' '}
+				</p>
+				<p>
+					Previous to this I was enrolled in a year long Front-End Career Development Path at Scrimba.com and prior to that I have held an
 					<a target={'_blank'} href='https://www.ultrait.net/'>
 						{' '}
 						<span className='hoverGreen markOrange underline'>internship at a small CRM software development agency,</span>
@@ -41,27 +45,30 @@ const About = () => (
 						<span className='hoverGreen markOrange underline'>several projects on my own.</span>
 					</a>{' '}
 					I as well continue expending my skills daily by studying and working on Front End Projects.
-				</p> */}
-				<p>
-					My creative background and career have influenced my passion for Web Design and Front End Development, I am also fascinated with decentralisation and responsible
-					autonomy, thus Blockchain and Crypto is the field that I am very much interested in.
-				</p>
-
-				<p>
-					I grew up in Ukraine in a creative family of an artist father, grandfater and an engineer mother, who instilled in me a keen eye for detail and ability to bring ideas to
-					fruition, as well as hunger for knowledge.
 				</p>
 				<p>
-					When my family moved me to USA in 1995 at the age of 18, I began learning and playing with Web Design and Development, 3D Modeling Software as well as Audio Software. At
-					the same time, I was exploring my creative nature which led me to a professional career crafting functional art and furniture and experience in managing and overseeing
-					creative talent which also prepared me to be a <mark className='markOrange'>valuable asset to any team.</mark>
+					My creative background and career have influenced my passion for Web and Graphic Design and also Web Development. Previous to this I had a professional career crafting
+					functional art and furniture and experience in managing and overseeing creative talent which also prepared me to be a{' '}
+					<mark className='markOrange'>valuable asset to any team.</mark>
 				</p>
 
 				<p className='pt-10 text-2xl'>Some of the technologies and software I've worked with:</p>
 			</div>
 
 			<div className='text-sunsetOrange flex flex-col sm:flex-row md:flex-row lg:flex-row mt-10 mb-10 justify-evenly'>
+				<ul className='flex flex-col'>
+					<li>+ Adobe Photoshop</li>
+					<li>+ Illustrator, InDesign</li>
+					<li>+ Figma, Adobe XD</li>
+					<li>+ 3D Studio MAX, Blender, Rhino 3D</li>
+					<li>+ Sketchup</li>
+					<li>+ Final Cut Pro</li>
+					<li>+ Davinci Resolve</li>
+					<li>+ Ableton Live</li>
+				</ul>
+
 				<ul className='flex flex-col '>
+					<li>+ Wordpress (Elementor, Oxygen)</li>
 					<li>+ React.js</li>
 					<li>+ Next.js</li>
 					<li>+ JavaScript (ES6+)</li>
@@ -70,16 +77,6 @@ const About = () => (
 					<li>+ Node, Express</li>
 					<li>+ GraphQL</li>
 					<li>+ Git, NPM</li>
-					<li>+ Wordpress (Elementor, Oxygen)</li>
-				</ul>
-
-				<ul className='flex flex-col'>
-					<li>+ Figma, Adobe XD</li>
-					<li>+ Photoshop, Illustrator</li>
-					<li>+ 3D Studio MAX, Blender, Rhino 3D</li>
-					<li>+ Sketchup</li>
-					<li>+ Final Cut Pro</li>
-					<li>+ Ableton Live</li>
 				</ul>
 			</div>
 

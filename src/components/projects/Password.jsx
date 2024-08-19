@@ -29,7 +29,7 @@ const Password = () => {
 					</a>
 
 					<div>
-						<a href='https://ar78studio.github.io/PasswordGen/' target='_blank'>
+						<a href='https://ar78studio.github.io/password-gen/' target='_blank'>
 							<OpenTabIcon className='svgBlue svgToOrange hover:-translate-y-1  transition duration-300' />
 						</a>
 					</div>
